@@ -12,6 +12,7 @@ public class ScMainMenu : MonoBehaviour
     [SerializeField] List<Button> buttons;
     void Start()
     {
+        Time.timeScale = 1;
         _animator = GetComponent<Animator>();
     }
     void StartTransition()

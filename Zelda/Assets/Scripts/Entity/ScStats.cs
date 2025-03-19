@@ -9,7 +9,7 @@ public class ScStats : MonoBehaviour
     {
         _hp = _hpMax;
     }
-    public void TakeDamage(int damage)
+    virtual public void TakeDamage(int damage)
     {
         _hp -= damage;
         if (_hp < 0) _hp = 0;
