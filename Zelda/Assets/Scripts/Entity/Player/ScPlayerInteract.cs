@@ -5,16 +5,19 @@ using UnityEngine.InputSystem;
 
 public class ScPlayerInteract : MonoBehaviour
 {
+    Animator _animator;
     [SerializeField] float _size = 2f;
     [SerializeField] LayerMask _layerMask;
     private bool _isInteracting = false;
     private bool _canInteract = true;
     private ScPlayerMovement movement;
     [SerializeField] private Transform _posObjInteract;
-    
     ScInventoryUIManager _inventoryManager;
+    
+    private bool _isInteractingAnim = false;
     void Start()
     {
+        _animator = GetComponent<Animator>();
         _inventoryManager = Camera.main.GetComponent<ScInGameUI>().GetInventoryManager();
         Debug.Log(_inventoryManager);
         movement = GetComponent<ScPlayerMovement>();
@@ -66,7 +69,9 @@ public class ScPlayerInteract : MonoBehaviour
 
             _inventoryManager.UpdateToolBarItems();
 
-            movement.IsInteracting(); // empeche le joueur de bouger
+            movement.CantMove(); // empeche le joueur de bouger
+            SetIsInteracting(); // met _isInteracting à true
+            _animator.Play("Interact"); // joue l'anim
 
             item.transform.SetParent(_posObjInteract); // place le à la bonne position
             item.GetSprite().sortingOrder = 30; // met le sprite devant tout
@@ -93,5 +98,11 @@ public class ScPlayerInteract : MonoBehaviour
     {
         Gizmos.color = Color.green;
         Gizmos.DrawWireSphere(transform.position, _size);
+    }
+
+    public void SetIsInteracting()
+    {
+        _isInteractingAnim = !_isInteractingAnim;
+        _animator.SetBool("IsInteracting",_isInteractingAnim);
     }
 }

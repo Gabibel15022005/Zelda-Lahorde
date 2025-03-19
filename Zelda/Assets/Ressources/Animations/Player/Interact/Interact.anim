@@ -321,7 +321,7 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 1.0166667
-    functionName: EndedInteracting
+    functionName: CanMove
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
@@ -329,6 +329,13 @@ AnimationClip:
     messageOptions: 0
   - time: 1.0166667
     functionName: DestroyObjectAfterAnimation
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 1.0166667
+    functionName: SetIsInteracting
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

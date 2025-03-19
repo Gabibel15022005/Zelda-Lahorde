@@ -97,7 +97,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -111,7 +111,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -135,7 +135,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -176,10 +176,10 @@ TextureImporter:
       name: Blue Slime_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 113
-        width: 18
-        height: 13
+        x: 0
+        y: 96
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -198,10 +198,10 @@ TextureImporter:
       name: Blue Slime_1
       rect:
         serializedVersion: 2
-        x: 63
-        y: 113
-        width: 18
-        height: 13
+        x: 48
+        y: 96
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -220,10 +220,10 @@ TextureImporter:
       name: Blue Slime_2
       rect:
         serializedVersion: 2
-        x: 110
-        y: 113
-        width: 20
-        height: 12
+        x: 96
+        y: 96
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,10 +242,10 @@ TextureImporter:
       name: Blue Slime_3
       rect:
         serializedVersion: 2
-        x: 158
-        y: 113
-        width: 20
-        height: 12
+        x: 144
+        y: 96
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -264,10 +264,10 @@ TextureImporter:
       name: Blue Slime_4
       rect:
         serializedVersion: 2
-        x: 207
-        y: 113
-        width: 18
-        height: 13
+        x: 192
+        y: 96
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -286,10 +286,10 @@ TextureImporter:
       name: Blue Slime_5
       rect:
         serializedVersion: 2
-        x: 255
-        y: 113
-        width: 18
-        height: 13
+        x: 240
+        y: 96
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -308,10 +308,10 @@ TextureImporter:
       name: Blue Slime_6
       rect:
         serializedVersion: 2
-        x: 304
-        y: 113
-        width: 16
-        height: 14
+        x: 288
+        y: 96
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -330,10 +330,10 @@ TextureImporter:
       name: Blue Slime_7
       rect:
         serializedVersion: 2
-        x: 352
-        y: 113
-        width: 16
-        height: 14
+        x: 336
+        y: 96
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -352,10 +352,10 @@ TextureImporter:
       name: Blue Slime_8
       rect:
         serializedVersion: 2
-        x: 15
-        y: 65
-        width: 18
-        height: 13
+        x: 0
+        y: 48
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -374,10 +374,10 @@ TextureImporter:
       name: Blue Slime_9
       rect:
         serializedVersion: 2
-        x: 63
-        y: 65
-        width: 18
-        height: 13
+        x: 48
+        y: 48
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -396,10 +396,10 @@ TextureImporter:
       name: Blue Slime_10
       rect:
         serializedVersion: 2
-        x: 110
-        y: 65
-        width: 20
-        height: 12
+        x: 96
+        y: 48
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -418,10 +418,10 @@ TextureImporter:
       name: Blue Slime_11
       rect:
         serializedVersion: 2
-        x: 158
-        y: 65
-        width: 20
-        height: 12
+        x: 144
+        y: 48
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -440,10 +440,10 @@ TextureImporter:
       name: Blue Slime_12
       rect:
         serializedVersion: 2
-        x: 207
-        y: 65
-        width: 18
-        height: 13
+        x: 192
+        y: 48
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -462,10 +462,10 @@ TextureImporter:
       name: Blue Slime_13
       rect:
         serializedVersion: 2
-        x: 255
-        y: 65
-        width: 18
-        height: 13
+        x: 240
+        y: 48
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -484,10 +484,10 @@ TextureImporter:
       name: Blue Slime_14
       rect:
         serializedVersion: 2
-        x: 304
-        y: 65
-        width: 16
-        height: 14
+        x: 288
+        y: 48
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -506,10 +506,10 @@ TextureImporter:
       name: Blue Slime_15
       rect:
         serializedVersion: 2
-        x: 352
-        y: 65
-        width: 16
-        height: 14
+        x: 336
+        y: 48
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -528,10 +528,10 @@ TextureImporter:
       name: Blue Slime_16
       rect:
         serializedVersion: 2
-        x: 15
-        y: 17
-        width: 18
-        height: 15
+        x: 0
+        y: 0
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -550,10 +550,10 @@ TextureImporter:
       name: Blue Slime_17
       rect:
         serializedVersion: 2
-        x: 63
-        y: 17
-        width: 18
-        height: 13
+        x: 48
+        y: 0
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -572,10 +572,10 @@ TextureImporter:
       name: Blue Slime_18
       rect:
         serializedVersion: 2
-        x: 110
-        y: 17
-        width: 20
-        height: 12
+        x: 96
+        y: 0
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -594,10 +594,10 @@ TextureImporter:
       name: Blue Slime_19
       rect:
         serializedVersion: 2
-        x: 157
-        y: 17
-        width: 22
-        height: 10
+        x: 144
+        y: 0
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -616,10 +616,10 @@ TextureImporter:
       name: Blue Slime_20
       rect:
         serializedVersion: 2
-        x: 205
-        y: 17
-        width: 22
-        height: 10
+        x: 192
+        y: 0
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -638,7 +638,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: c7221da398b04554f887522e8d64b777
     internalID: 0
     vertices: []
     indices: 
@@ -647,7 +647,28 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Blue Slime_0: 332046234177408410
+      Blue Slime_1: -1228873694725116285
+      Blue Slime_10: 2053410441791251829
+      Blue Slime_11: 2893642559350320493
+      Blue Slime_12: 7369557800810059842
+      Blue Slime_13: -8193956346872842500
+      Blue Slime_14: 1002367241220671800
+      Blue Slime_15: 3620270886306710162
+      Blue Slime_16: 609691730543742468
+      Blue Slime_17: -7906210988399904860
+      Blue Slime_18: 105945233033692897
+      Blue Slime_19: 6004151813586735665
+      Blue Slime_2: -2531672070616825396
+      Blue Slime_20: -5908086892841454541
+      Blue Slime_3: -2850453836537515099
+      Blue Slime_4: 5369338772513780270
+      Blue Slime_5: 6751283532455294787
+      Blue Slime_6: -9052194924256398963
+      Blue Slime_7: 5674298525720218563
+      Blue Slime_8: 8645755946234164567
+      Blue Slime_9: 9142526027386659902
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

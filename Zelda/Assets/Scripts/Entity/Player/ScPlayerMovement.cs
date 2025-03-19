@@ -16,7 +16,7 @@ public class ScPlayerMovement : MonoBehaviour
     private bool _isFacingLeft = false;
     private bool _isMoving = false;
     private bool _isRunning = false;
-    private bool _isInteracting = false;
+    private bool _canMove = true;
     void Start()
     {
         _animator = GetComponent<Animator>();
@@ -27,19 +27,19 @@ public class ScPlayerMovement : MonoBehaviour
     }
     void Update()
     {
-        ForAnimator();
+        if (!_canMove) return;
 
-        if (!_isInteracting) Move();
+        ForAnimator();
+        Move();
     }
-    public void IsInteracting()
+    public void CantMove()
     {
-        _isInteracting = true; // pour cancel les autres actions
+        _canMove = false; // pour cancel les autres actions
         _rb.linearVelocity = Vector2.zero; // arrete le joueur sur place
-        _animator.Play("Interact");
     }
-    public void EndedInteracting()
+    public void CanMove()
     {
-        _isInteracting = false; 
+        _canMove = true; 
     }
     public void OnMove(InputAction.CallbackContext context)
     {
@@ -133,7 +133,6 @@ public class ScPlayerMovement : MonoBehaviour
         _animator.SetBool("IsMoving",_isMoving);
         _animator.SetBool("IsRunning",_isRunning);
 
-        _animator.SetBool("IsInteracting",_isInteracting);
 
     }
 }
