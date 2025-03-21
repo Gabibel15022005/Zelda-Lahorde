@@ -94,7 +94,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -108,7 +108,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -132,7 +132,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -174,9 +174,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 17
-        height: 64
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,10 +195,10 @@ TextureImporter:
       name: Blue Knight idle Sprite-sheet 16x16_1
       rect:
         serializedVersion: 2
-        x: 15
-        y: 47
-        width: 17
-        height: 17
+        x: 16
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -217,10 +217,10 @@ TextureImporter:
       name: Blue Knight idle Sprite-sheet 16x16_2
       rect:
         serializedVersion: 2
-        x: 17
-        y: 31
-        width: 14
-        height: 17
+        x: 32
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,10 +239,10 @@ TextureImporter:
       name: Blue Knight idle Sprite-sheet 16x16_3
       rect:
         serializedVersion: 2
-        x: 31
-        y: 47
-        width: 17
-        height: 17
+        x: 48
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -261,10 +261,10 @@ TextureImporter:
       name: Blue Knight idle Sprite-sheet 16x16_4
       rect:
         serializedVersion: 2
-        x: 33
-        y: 31
-        width: 14
-        height: 17
+        x: 64
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,10 +283,10 @@ TextureImporter:
       name: Blue Knight idle Sprite-sheet 16x16_5
       rect:
         serializedVersion: 2
-        x: 47
-        y: 47
-        width: 17
-        height: 17
+        x: 80
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,10 +305,10 @@ TextureImporter:
       name: Blue Knight idle Sprite-sheet 16x16_6
       rect:
         serializedVersion: 2
-        x: 49
-        y: 31
-        width: 14
-        height: 17
+        x: 96
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -327,10 +327,10 @@ TextureImporter:
       name: Blue Knight idle Sprite-sheet 16x16_7
       rect:
         serializedVersion: 2
-        x: 63
-        y: 47
-        width: 17
-        height: 17
+        x: 112
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,10 +349,10 @@ TextureImporter:
       name: Blue Knight idle Sprite-sheet 16x16_8
       rect:
         serializedVersion: 2
-        x: 65
-        y: 31
-        width: 14
-        height: 17
+        x: 0
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,10 +371,10 @@ TextureImporter:
       name: Blue Knight idle Sprite-sheet 16x16_9
       rect:
         serializedVersion: 2
-        x: 79
-        y: 0
-        width: 18
-        height: 64
+        x: 16
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -393,10 +393,10 @@ TextureImporter:
       name: Blue Knight idle Sprite-sheet 16x16_10
       rect:
         serializedVersion: 2
-        x: 95
-        y: 0
-        width: 18
-        height: 64
+        x: 32
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -415,10 +415,10 @@ TextureImporter:
       name: Blue Knight idle Sprite-sheet 16x16_11
       rect:
         serializedVersion: 2
-        x: 111
-        y: 0
-        width: 17
-        height: 64
+        x: 48
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -437,10 +437,10 @@ TextureImporter:
       name: Blue Knight idle Sprite-sheet 16x16_12
       rect:
         serializedVersion: 2
-        x: 16
-        y: 15
-        width: 17
-        height: 17
+        x: 64
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -459,9 +459,9 @@ TextureImporter:
       name: Blue Knight idle Sprite-sheet 16x16_13
       rect:
         serializedVersion: 2
-        x: 17
-        y: 0
-        width: 14
+        x: 80
+        y: 32
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -481,10 +481,10 @@ TextureImporter:
       name: Blue Knight idle Sprite-sheet 16x16_14
       rect:
         serializedVersion: 2
-        x: 32
-        y: 15
-        width: 17
-        height: 17
+        x: 96
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -503,9 +503,9 @@ TextureImporter:
       name: Blue Knight idle Sprite-sheet 16x16_15
       rect:
         serializedVersion: 2
-        x: 33
-        y: 0
-        width: 14
+        x: 112
+        y: 32
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -525,10 +525,10 @@ TextureImporter:
       name: Blue Knight idle Sprite-sheet 16x16_16
       rect:
         serializedVersion: 2
-        x: 48
-        y: 15
-        width: 17
-        height: 17
+        x: 0
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -547,9 +547,9 @@ TextureImporter:
       name: Blue Knight idle Sprite-sheet 16x16_17
       rect:
         serializedVersion: 2
-        x: 49
-        y: 0
-        width: 14
+        x: 16
+        y: 16
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -569,10 +569,10 @@ TextureImporter:
       name: Blue Knight idle Sprite-sheet 16x16_18
       rect:
         serializedVersion: 2
-        x: 64
-        y: 15
-        width: 17
-        height: 17
+        x: 32
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -591,9 +591,9 @@ TextureImporter:
       name: Blue Knight idle Sprite-sheet 16x16_19
       rect:
         serializedVersion: 2
-        x: 65
-        y: 0
-        width: 14
+        x: 48
+        y: 16
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -609,11 +609,275 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Blue Knight idle Sprite-sheet 16x16_20
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f5443d25db6a5c47b400a0cd851cead
+      internalID: -500112331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Knight idle Sprite-sheet 16x16_21
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af896b2c6cfddf43bb12b7024a9072e
+      internalID: 691665582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Knight idle Sprite-sheet 16x16_22
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 749b6f036b7b3d8418b9ae42405354f3
+      internalID: 1327726636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Knight idle Sprite-sheet 16x16_23
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ca7e6fdc398d1f4cb80b8fa00b4c94e
+      internalID: -668152819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Knight idle Sprite-sheet 16x16_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 363a253f0872d724e9d261d03d0cb7c5
+      internalID: -1370418222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Knight idle Sprite-sheet 16x16_25
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b6126f6ff7bb34589b7aef11a1d309
+      internalID: 266988377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Knight idle Sprite-sheet 16x16_26
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b8715e0cd1a9141acbe01c12b01a38
+      internalID: 91038134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Knight idle Sprite-sheet 16x16_27
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ad2d8cd21d7af409f7cf7009773209
+      internalID: 86965996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Knight idle Sprite-sheet 16x16_28
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c2c769b9d0acab4ba2f882501f37425
+      internalID: -398362841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Knight idle Sprite-sheet 16x16_29
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd21a23cfd015548935987ff1fc6954
+      internalID: 887723754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Knight idle Sprite-sheet 16x16_30
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e6325ff84525c4ab5d3734fafb2830
+      internalID: -953820321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue Knight idle Sprite-sheet 16x16_31
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af8459918b0ed8740ac7ae4e03f41f0c
+      internalID: -1294524022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e7487e9f57e8df24ca26b9a92e6b1b8f
     internalID: 0
     vertices: []
     indices: 
@@ -622,7 +886,39 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Blue Knight idle Sprite-sheet 16x16_0: 2596844003648192100
+      Blue Knight idle Sprite-sheet 16x16_1: 1794730396668219854
+      Blue Knight idle Sprite-sheet 16x16_10: 6817140010153936105
+      Blue Knight idle Sprite-sheet 16x16_11: 5293875467149710717
+      Blue Knight idle Sprite-sheet 16x16_12: -8181381550169696062
+      Blue Knight idle Sprite-sheet 16x16_13: 7416626095415050163
+      Blue Knight idle Sprite-sheet 16x16_14: 7353165688239767475
+      Blue Knight idle Sprite-sheet 16x16_15: -4938983701706994599
+      Blue Knight idle Sprite-sheet 16x16_16: -4408785941933458326
+      Blue Knight idle Sprite-sheet 16x16_17: -277927514095874268
+      Blue Knight idle Sprite-sheet 16x16_18: 1759465903576458673
+      Blue Knight idle Sprite-sheet 16x16_19: 525844938984688427
+      Blue Knight idle Sprite-sheet 16x16_2: -7778867024889354036
+      Blue Knight idle Sprite-sheet 16x16_20: -500112331
+      Blue Knight idle Sprite-sheet 16x16_21: 691665582
+      Blue Knight idle Sprite-sheet 16x16_22: 1327726636
+      Blue Knight idle Sprite-sheet 16x16_23: -668152819
+      Blue Knight idle Sprite-sheet 16x16_24: -1370418222
+      Blue Knight idle Sprite-sheet 16x16_25: 266988377
+      Blue Knight idle Sprite-sheet 16x16_26: 91038134
+      Blue Knight idle Sprite-sheet 16x16_27: 86965996
+      Blue Knight idle Sprite-sheet 16x16_28: -398362841
+      Blue Knight idle Sprite-sheet 16x16_29: 887723754
+      Blue Knight idle Sprite-sheet 16x16_3: 8245896868816066125
+      Blue Knight idle Sprite-sheet 16x16_30: -953820321
+      Blue Knight idle Sprite-sheet 16x16_31: -1294524022
+      Blue Knight idle Sprite-sheet 16x16_4: 1704294983499483484
+      Blue Knight idle Sprite-sheet 16x16_5: 5110142268613017198
+      Blue Knight idle Sprite-sheet 16x16_6: -2511857645008635985
+      Blue Knight idle Sprite-sheet 16x16_7: -8949599633578858399
+      Blue Knight idle Sprite-sheet 16x16_8: 1647920179239072915
+      Blue Knight idle Sprite-sheet 16x16_9: -3834282578734961935
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

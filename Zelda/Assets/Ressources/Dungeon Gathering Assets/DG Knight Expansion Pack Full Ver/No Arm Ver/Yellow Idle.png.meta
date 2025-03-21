@@ -622,7 +622,27 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Yellow Idle_0: 7875479924299485880
+      Yellow Idle_1: -3838644187169793916
+      Yellow Idle_10: 1986639795260900623
+      Yellow Idle_11: 4055747890503907183
+      Yellow Idle_12: 6398064809598638798
+      Yellow Idle_13: -4036376688971333678
+      Yellow Idle_14: -1032448007845505183
+      Yellow Idle_15: 6973006759414384675
+      Yellow Idle_16: 4165014195380900198
+      Yellow Idle_17: 1431453406832614690
+      Yellow Idle_18: 8520108774096874540
+      Yellow Idle_19: -5224708023785865932
+      Yellow Idle_2: 5138873146083383043
+      Yellow Idle_3: 1604686326818596503
+      Yellow Idle_4: -5082222181531865658
+      Yellow Idle_5: 3760568531957872623
+      Yellow Idle_6: -4431721481695373427
+      Yellow Idle_7: 596720743799197310
+      Yellow Idle_8: 6285898070677920647
+      Yellow Idle_9: 7696158310476516373
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

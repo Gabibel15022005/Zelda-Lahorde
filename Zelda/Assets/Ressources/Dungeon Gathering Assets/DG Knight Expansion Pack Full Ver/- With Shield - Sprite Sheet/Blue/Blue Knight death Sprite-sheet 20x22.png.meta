@@ -130,7 +130,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -144,7 +144,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -168,7 +168,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -922,7 +922,39 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Blue Knight death Sprite-sheet 20x22_0: 5488529544821547399
+      Blue Knight death Sprite-sheet 20x22_1: -3152487604299223359
+      Blue Knight death Sprite-sheet 20x22_10: 7588053303870527291
+      Blue Knight death Sprite-sheet 20x22_11: -4723873892082831027
+      Blue Knight death Sprite-sheet 20x22_12: -5547460874678410261
+      Blue Knight death Sprite-sheet 20x22_13: -96374820195614578
+      Blue Knight death Sprite-sheet 20x22_14: -2370046676394723339
+      Blue Knight death Sprite-sheet 20x22_15: -3209876816414479581
+      Blue Knight death Sprite-sheet 20x22_16: 7173869106619055966
+      Blue Knight death Sprite-sheet 20x22_17: 9032855181236422412
+      Blue Knight death Sprite-sheet 20x22_18: 6417762355491568064
+      Blue Knight death Sprite-sheet 20x22_19: 8493182830296281321
+      Blue Knight death Sprite-sheet 20x22_2: -4423278231596361457
+      Blue Knight death Sprite-sheet 20x22_20: 7969960367500437424
+      Blue Knight death Sprite-sheet 20x22_21: 6648179303761755541
+      Blue Knight death Sprite-sheet 20x22_22: -1918113936783302813
+      Blue Knight death Sprite-sheet 20x22_23: -8469339100578808927
+      Blue Knight death Sprite-sheet 20x22_24: -71310667555405780
+      Blue Knight death Sprite-sheet 20x22_25: 7738997512518337612
+      Blue Knight death Sprite-sheet 20x22_26: -3462459135659745953
+      Blue Knight death Sprite-sheet 20x22_27: 4126808192446033824
+      Blue Knight death Sprite-sheet 20x22_28: -6665011670512097081
+      Blue Knight death Sprite-sheet 20x22_29: -4295293337803786234
+      Blue Knight death Sprite-sheet 20x22_3: -4847817248958827435
+      Blue Knight death Sprite-sheet 20x22_30: -6764328624139074364
+      Blue Knight death Sprite-sheet 20x22_31: -1765506747124579195
+      Blue Knight death Sprite-sheet 20x22_4: -7571664643620054475
+      Blue Knight death Sprite-sheet 20x22_5: 1510109494052818498
+      Blue Knight death Sprite-sheet 20x22_6: -7832507757158832431
+      Blue Knight death Sprite-sheet 20x22_7: -7088571285142590951
+      Blue Knight death Sprite-sheet 20x22_8: -8713456780640384376
+      Blue Knight death Sprite-sheet 20x22_9: -5649921068807061730
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

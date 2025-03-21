@@ -622,7 +622,27 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Green Knight idle Sprite-sheet 16x16_0: 5436473828369975925
+      Green Knight idle Sprite-sheet 16x16_1: -3938113241955029332
+      Green Knight idle Sprite-sheet 16x16_10: -3572265438522012816
+      Green Knight idle Sprite-sheet 16x16_11: -6960622167187067050
+      Green Knight idle Sprite-sheet 16x16_12: -7026107365836729303
+      Green Knight idle Sprite-sheet 16x16_13: 6549066837925555150
+      Green Knight idle Sprite-sheet 16x16_14: -4940348989310019430
+      Green Knight idle Sprite-sheet 16x16_15: 1843436128425717362
+      Green Knight idle Sprite-sheet 16x16_16: 2633414052073302045
+      Green Knight idle Sprite-sheet 16x16_17: 6311294318396855548
+      Green Knight idle Sprite-sheet 16x16_18: 7109298173230289924
+      Green Knight idle Sprite-sheet 16x16_19: 5959226488651562521
+      Green Knight idle Sprite-sheet 16x16_2: 7357762848764945079
+      Green Knight idle Sprite-sheet 16x16_3: 987495006041133806
+      Green Knight idle Sprite-sheet 16x16_4: -6937652881875907560
+      Green Knight idle Sprite-sheet 16x16_5: 5869554796806284733
+      Green Knight idle Sprite-sheet 16x16_6: 313982712969103175
+      Green Knight idle Sprite-sheet 16x16_7: 1514770352053693526
+      Green Knight idle Sprite-sheet 16x16_8: -3121139112008234173
+      Green Knight idle Sprite-sheet 16x16_9: 4407399768301697460
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

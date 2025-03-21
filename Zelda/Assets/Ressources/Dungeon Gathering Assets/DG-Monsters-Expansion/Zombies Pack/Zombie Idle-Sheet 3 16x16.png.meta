@@ -922,7 +922,39 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Zombie Idle-Sheet 3 16x16_0: 2918145198783416990
+      Zombie Idle-Sheet 3 16x16_1: 3598976230598980660
+      Zombie Idle-Sheet 3 16x16_10: -3155078637427557858
+      Zombie Idle-Sheet 3 16x16_11: 7119353949218855394
+      Zombie Idle-Sheet 3 16x16_12: -2160167197531746049
+      Zombie Idle-Sheet 3 16x16_13: -7685016356888327274
+      Zombie Idle-Sheet 3 16x16_14: -2778955757691676487
+      Zombie Idle-Sheet 3 16x16_15: -6695084443354646324
+      Zombie Idle-Sheet 3 16x16_16: -2952094075426645594
+      Zombie Idle-Sheet 3 16x16_17: 5144157521948044784
+      Zombie Idle-Sheet 3 16x16_18: -4066697876176238186
+      Zombie Idle-Sheet 3 16x16_19: -4777960815993676593
+      Zombie Idle-Sheet 3 16x16_2: -7640336182667860540
+      Zombie Idle-Sheet 3 16x16_20: 1963450337495138063
+      Zombie Idle-Sheet 3 16x16_21: -2233016226934533729
+      Zombie Idle-Sheet 3 16x16_22: -7580271195616201045
+      Zombie Idle-Sheet 3 16x16_23: -8089069842141063778
+      Zombie Idle-Sheet 3 16x16_24: -375358192462485504
+      Zombie Idle-Sheet 3 16x16_25: -5792512313360062966
+      Zombie Idle-Sheet 3 16x16_26: -4077865427132448410
+      Zombie Idle-Sheet 3 16x16_27: 4085084993726381070
+      Zombie Idle-Sheet 3 16x16_28: 6493884885218701420
+      Zombie Idle-Sheet 3 16x16_29: 7026789118204023964
+      Zombie Idle-Sheet 3 16x16_3: 8595116613227685139
+      Zombie Idle-Sheet 3 16x16_30: -5712474782075887924
+      Zombie Idle-Sheet 3 16x16_31: 1060264465569552079
+      Zombie Idle-Sheet 3 16x16_4: -6194047403536242663
+      Zombie Idle-Sheet 3 16x16_5: 1722597242571759898
+      Zombie Idle-Sheet 3 16x16_6: 7047877166937862209
+      Zombie Idle-Sheet 3 16x16_7: 5144796698334328036
+      Zombie Idle-Sheet 3 16x16_8: 3225859633393431131
+      Zombie Idle-Sheet 3 16x16_9: -8805572490768656299
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

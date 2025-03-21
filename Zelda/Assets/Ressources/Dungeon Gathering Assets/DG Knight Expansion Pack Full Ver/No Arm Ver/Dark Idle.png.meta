@@ -622,7 +622,27 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Dark Idle_0: -8885167079508369836
+      Dark Idle_1: 3217942883362675063
+      Dark Idle_10: 3514092990247794882
+      Dark Idle_11: 1573750373144877863
+      Dark Idle_12: 53037356150050016
+      Dark Idle_13: -2687530849208843617
+      Dark Idle_14: -7222397062730138986
+      Dark Idle_15: -6483550553801656165
+      Dark Idle_16: 985866132032854656
+      Dark Idle_17: -1248206237696597791
+      Dark Idle_18: 5692230136224405156
+      Dark Idle_19: -6537877752104136561
+      Dark Idle_2: -7322291313232514994
+      Dark Idle_3: 5309528457363762531
+      Dark Idle_4: -7894050177227357587
+      Dark Idle_5: -7294266312533914528
+      Dark Idle_6: -7591567761724219415
+      Dark Idle_7: -2933703574322794062
+      Dark Idle_8: 4749317333031499554
+      Dark Idle_9: -6049284144634843094
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Zombies 1 portraits 16x16_0: 3941168314677554203
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

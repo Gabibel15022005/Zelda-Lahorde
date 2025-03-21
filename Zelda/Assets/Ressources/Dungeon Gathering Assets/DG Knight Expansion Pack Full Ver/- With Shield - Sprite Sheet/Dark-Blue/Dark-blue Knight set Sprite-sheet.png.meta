@@ -472,7 +472,21 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Dark-blue Knight set Sprite-sheet_0: 3305021756667190751
+      Dark-blue Knight set Sprite-sheet_1: -2053656586345775206
+      Dark-blue Knight set Sprite-sheet_10: 6589952038056767876
+      Dark-blue Knight set Sprite-sheet_11: -4991674780054558376
+      Dark-blue Knight set Sprite-sheet_12: -4129714090306103896
+      Dark-blue Knight set Sprite-sheet_13: 1551767847095190874
+      Dark-blue Knight set Sprite-sheet_2: -1397118252329545127
+      Dark-blue Knight set Sprite-sheet_3: -4328101945782689941
+      Dark-blue Knight set Sprite-sheet_4: 7086247747438214018
+      Dark-blue Knight set Sprite-sheet_5: 5731875562450441653
+      Dark-blue Knight set Sprite-sheet_6: 8223245237065340496
+      Dark-blue Knight set Sprite-sheet_7: -3577587988519968039
+      Dark-blue Knight set Sprite-sheet_8: 8770747300272638945
+      Dark-blue Knight set Sprite-sheet_9: -4871328756578136944
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

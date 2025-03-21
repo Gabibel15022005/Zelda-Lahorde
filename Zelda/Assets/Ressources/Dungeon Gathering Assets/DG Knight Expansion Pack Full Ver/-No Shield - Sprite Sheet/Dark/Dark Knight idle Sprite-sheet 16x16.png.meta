@@ -622,7 +622,27 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Dark Knight idle Sprite-sheet 16x16_0: 5643786372888837167
+      Dark Knight idle Sprite-sheet 16x16_1: 586810670974587956
+      Dark Knight idle Sprite-sheet 16x16_10: -6055145882453213062
+      Dark Knight idle Sprite-sheet 16x16_11: -2191391514097694185
+      Dark Knight idle Sprite-sheet 16x16_12: 472154400048942662
+      Dark Knight idle Sprite-sheet 16x16_13: 3428177823098572448
+      Dark Knight idle Sprite-sheet 16x16_14: -7488998336833385989
+      Dark Knight idle Sprite-sheet 16x16_15: -912931502398030154
+      Dark Knight idle Sprite-sheet 16x16_16: -6095737963738075398
+      Dark Knight idle Sprite-sheet 16x16_17: -1034830371927053592
+      Dark Knight idle Sprite-sheet 16x16_18: -6818643558196140560
+      Dark Knight idle Sprite-sheet 16x16_19: 8999582845318490813
+      Dark Knight idle Sprite-sheet 16x16_2: -4158701661449035363
+      Dark Knight idle Sprite-sheet 16x16_3: 2020329115889956588
+      Dark Knight idle Sprite-sheet 16x16_4: 1164176693853338320
+      Dark Knight idle Sprite-sheet 16x16_5: -3211594591143524308
+      Dark Knight idle Sprite-sheet 16x16_6: -2530568793847659404
+      Dark Knight idle Sprite-sheet 16x16_7: 5951853878025811265
+      Dark Knight idle Sprite-sheet 16x16_8: 7410158262954853097
+      Dark Knight idle Sprite-sheet 16x16_9: 9129450037864333478
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

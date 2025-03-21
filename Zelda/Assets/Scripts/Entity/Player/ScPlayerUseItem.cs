@@ -10,6 +10,7 @@ public class ScPlayerUseItem : MonoBehaviour
     private bool _isUsingItem = false;
     private bool _isAttacking = false;
     private int _combo = 0;
+    private bool _canUseItem = true;
     void Start()
     {
         _player = GetComponent<ScPlayerMovement>();
@@ -47,10 +48,19 @@ public class ScPlayerUseItem : MonoBehaviour
 
         }
     }
+    public void CanUseItem()
+    {
+        _canUseItem = true;
+    }
+    public void CantUseItem()
+    {
+        _canUseItem = false;
+    }
 
     private void UseItem(string name)
     {
         if (name == "") return;
+        if (!_canUseItem) return;
 
         SetIsUsingItem();
 

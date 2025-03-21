@@ -7,9 +7,11 @@ public class ScPlayerInteract : MonoBehaviour
 {
     Animator _animator;
     [SerializeField] float _size = 2f;
-    [SerializeField] LayerMask _layerMask;
+    [SerializeField] LayerMask _itemLayerMask;
+    [SerializeField] LayerMask _PNJLayerMask;
     private bool _isInteracting = false;
     private bool _canInteract = true;
+    private bool _isCalledOnce = false;
     private ScPlayerMovement movement;
     [SerializeField] private Transform _posObjInteract;
     ScInventoryUIManager _inventoryManager;
@@ -29,12 +31,8 @@ public class ScPlayerInteract : MonoBehaviour
 
     void CheckAround()
     {
-        Collider2D[] itemCheck = Physics2D.OverlapCircleAll(transform.position, _size, _layerMask);
-
-        if (itemCheck.Length > 0)
-        {
-            // faire apparaitre l'UI au dessus du joueur
-        }
+        Collider2D[] itemCheck = Physics2D.OverlapCircleAll(transform.position, _size, _itemLayerMask);
+        Collider2D[] PNJCheck = Physics2D.OverlapCircleAll(transform.position, _size, _PNJLayerMask);
 
         if (itemCheck.Length > 0 && _isInteracting && _canInteract)
         {
@@ -77,6 +75,19 @@ public class ScPlayerInteract : MonoBehaviour
             item.GetSprite().sortingOrder = 30; // met le sprite devant tout
             item.transform.position = _posObjInteract.position; // place le au centre
         }
+    
+        if (PNJCheck.Length > 0)
+        {
+            // rajouter une verif pour si on est en discussion ou pas (pour ne pas afficher l'ui pour rien)
+            // faire apparaitre l'UI au dessus du joueur
+        }
+
+        if (PNJCheck.Length > 0 && _isInteracting && !_isCalledOnce)
+        {
+            _isCalledOnce = true;
+            Debug.Log("Call TriggerDialogue()");
+            PNJCheck[0].GetComponent<ScPNJ>().TriggerDialogue(movement);
+        }
     }
     public void DestroyObjectAfterAnimation()
     {
@@ -85,13 +96,18 @@ public class ScPlayerInteract : MonoBehaviour
     }
     public void OnInteract(InputAction.CallbackContext context)
     {
-        if (context.started)
+        if (context.started && !_isCalledOnce)
         {
             _isInteracting = true;
         }
         else 
         {
             _isInteracting = false;
+        }
+
+        if (context.canceled)
+        {
+            _isCalledOnce = false;
         }
     }
     void OnDrawGizmos()

@@ -922,7 +922,39 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Red Knight block Sprite-sheet 16x20_0: 6828985038724762793
+      Red Knight block Sprite-sheet 16x20_1: 5327050233645700626
+      Red Knight block Sprite-sheet 16x20_10: -5035800869918430432
+      Red Knight block Sprite-sheet 16x20_11: -6340903055825103730
+      Red Knight block Sprite-sheet 16x20_12: -5949580747719291714
+      Red Knight block Sprite-sheet 16x20_13: -7507024252260529107
+      Red Knight block Sprite-sheet 16x20_14: -2168291859160515750
+      Red Knight block Sprite-sheet 16x20_15: -7206979983189959514
+      Red Knight block Sprite-sheet 16x20_16: -3356948777002576320
+      Red Knight block Sprite-sheet 16x20_17: -2357212249733255634
+      Red Knight block Sprite-sheet 16x20_18: 2236616819614129678
+      Red Knight block Sprite-sheet 16x20_19: -9121444532318750731
+      Red Knight block Sprite-sheet 16x20_2: -5286808371915270694
+      Red Knight block Sprite-sheet 16x20_20: -8835759120299479251
+      Red Knight block Sprite-sheet 16x20_21: -3842180766153273312
+      Red Knight block Sprite-sheet 16x20_22: 443029436214981569
+      Red Knight block Sprite-sheet 16x20_23: 5896415109866853143
+      Red Knight block Sprite-sheet 16x20_24: -2906256083166130611
+      Red Knight block Sprite-sheet 16x20_25: 3422429745088811750
+      Red Knight block Sprite-sheet 16x20_26: 5117618715943764762
+      Red Knight block Sprite-sheet 16x20_27: 2819443727385074935
+      Red Knight block Sprite-sheet 16x20_28: -42705298682855248
+      Red Knight block Sprite-sheet 16x20_29: 9190332081920548789
+      Red Knight block Sprite-sheet 16x20_3: -4922729804264262051
+      Red Knight block Sprite-sheet 16x20_30: 6182071985174524548
+      Red Knight block Sprite-sheet 16x20_31: -4909460744411232913
+      Red Knight block Sprite-sheet 16x20_4: 5059221825652985233
+      Red Knight block Sprite-sheet 16x20_5: -2093977890906836685
+      Red Knight block Sprite-sheet 16x20_6: 6648025793945077555
+      Red Knight block Sprite-sheet 16x20_7: 4244440865071422718
+      Red Knight block Sprite-sheet 16x20_8: 6995506471298468652
+      Red Knight block Sprite-sheet 16x20_9: 308617595959646260
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

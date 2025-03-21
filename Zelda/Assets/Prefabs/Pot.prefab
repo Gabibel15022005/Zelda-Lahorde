@@ -107,6 +107,8 @@ MonoBehaviour:
   _speed: 0
   _objPossible:
   - {fileID: 5151082078752101030, guid: b589ef5bd5e874a468ceedb28cf45c09, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!95 &999521644673552002
 Animator:
   serializedVersion: 7

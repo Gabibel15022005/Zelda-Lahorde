@@ -922,7 +922,39 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Green Knight block Sprite-sheet 16x20_0: -6112347029479766627
+      Green Knight block Sprite-sheet 16x20_1: 6822594169055804249
+      Green Knight block Sprite-sheet 16x20_10: -1393330659405887547
+      Green Knight block Sprite-sheet 16x20_11: 1729919931004226558
+      Green Knight block Sprite-sheet 16x20_12: -6864233497385984081
+      Green Knight block Sprite-sheet 16x20_13: 3625260489958377282
+      Green Knight block Sprite-sheet 16x20_14: 2122962205600422849
+      Green Knight block Sprite-sheet 16x20_15: 2539204029082152182
+      Green Knight block Sprite-sheet 16x20_16: 9092009639517893637
+      Green Knight block Sprite-sheet 16x20_17: -3494663669556524866
+      Green Knight block Sprite-sheet 16x20_18: 1132549366256775961
+      Green Knight block Sprite-sheet 16x20_19: -5228877206944723789
+      Green Knight block Sprite-sheet 16x20_2: -990381917712398469
+      Green Knight block Sprite-sheet 16x20_20: -8457094182567729241
+      Green Knight block Sprite-sheet 16x20_21: -8925563232515146135
+      Green Knight block Sprite-sheet 16x20_22: 4059808359188505202
+      Green Knight block Sprite-sheet 16x20_23: -3174812576146899762
+      Green Knight block Sprite-sheet 16x20_24: 3880079799606103511
+      Green Knight block Sprite-sheet 16x20_25: -7458821796776417573
+      Green Knight block Sprite-sheet 16x20_26: -6191566344987729194
+      Green Knight block Sprite-sheet 16x20_27: -1816786932133279238
+      Green Knight block Sprite-sheet 16x20_28: 281840459794972552
+      Green Knight block Sprite-sheet 16x20_29: -7778320453967433763
+      Green Knight block Sprite-sheet 16x20_3: 966311784270472814
+      Green Knight block Sprite-sheet 16x20_30: 6308847416049281186
+      Green Knight block Sprite-sheet 16x20_31: -5094618052556927150
+      Green Knight block Sprite-sheet 16x20_4: -3899949635542350953
+      Green Knight block Sprite-sheet 16x20_5: -6935891303123312794
+      Green Knight block Sprite-sheet 16x20_6: 5065638110663244784
+      Green Knight block Sprite-sheet 16x20_7: -3663607191031414448
+      Green Knight block Sprite-sheet 16x20_8: 3340723974643335708
+      Green Knight block Sprite-sheet 16x20_9: -1329375840187138140
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

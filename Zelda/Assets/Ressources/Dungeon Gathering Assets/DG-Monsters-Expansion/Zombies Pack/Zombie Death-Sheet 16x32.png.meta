@@ -822,7 +822,35 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Zombie Death-Sheet 16x32_0: 7332721528807887054
+      Zombie Death-Sheet 16x32_1: -1174100305121058226
+      Zombie Death-Sheet 16x32_10: 7712536549363144895
+      Zombie Death-Sheet 16x32_11: 4879475642065526188
+      Zombie Death-Sheet 16x32_12: -6862402142338716314
+      Zombie Death-Sheet 16x32_13: -1321859012847092936
+      Zombie Death-Sheet 16x32_14: 5365895172431872866
+      Zombie Death-Sheet 16x32_15: 4745690248732149474
+      Zombie Death-Sheet 16x32_16: -2885109838721635457
+      Zombie Death-Sheet 16x32_17: -3547850366103835293
+      Zombie Death-Sheet 16x32_18: 7581683127930602673
+      Zombie Death-Sheet 16x32_19: 3236109885014046311
+      Zombie Death-Sheet 16x32_2: 7508209798925282041
+      Zombie Death-Sheet 16x32_20: -366586395292743960
+      Zombie Death-Sheet 16x32_21: 4822805479948456872
+      Zombie Death-Sheet 16x32_22: -7874710773625172973
+      Zombie Death-Sheet 16x32_23: -771928375076998727
+      Zombie Death-Sheet 16x32_24: 7001441908414379475
+      Zombie Death-Sheet 16x32_25: 7556589970119375320
+      Zombie Death-Sheet 16x32_26: -7165853647476993207
+      Zombie Death-Sheet 16x32_27: 4260639230756205667
+      Zombie Death-Sheet 16x32_3: -6931806207352680460
+      Zombie Death-Sheet 16x32_4: -6538883255032898221
+      Zombie Death-Sheet 16x32_5: 4255310976409611744
+      Zombie Death-Sheet 16x32_6: -3301161217095933767
+      Zombie Death-Sheet 16x32_7: -3762035429429435594
+      Zombie Death-Sheet 16x32_8: 7163526580266823778
+      Zombie Death-Sheet 16x32_9: 3062202185566954468
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
