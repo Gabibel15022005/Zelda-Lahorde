@@ -922,7 +922,39 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Zombie Attack-Sheet+vfx 3_0: -2319888210952908445
+      Zombie Attack-Sheet+vfx 3_1: 6579253567697960957
+      Zombie Attack-Sheet+vfx 3_10: -4043670598054248110
+      Zombie Attack-Sheet+vfx 3_11: -5715113049306506516
+      Zombie Attack-Sheet+vfx 3_12: 9152162303427191874
+      Zombie Attack-Sheet+vfx 3_13: -6681750210217546435
+      Zombie Attack-Sheet+vfx 3_14: -1756768646037050400
+      Zombie Attack-Sheet+vfx 3_15: -6660734013459465787
+      Zombie Attack-Sheet+vfx 3_16: 4201422351510392046
+      Zombie Attack-Sheet+vfx 3_17: 3023034228735156091
+      Zombie Attack-Sheet+vfx 3_18: 7303753179739203562
+      Zombie Attack-Sheet+vfx 3_19: 1496922482997179473
+      Zombie Attack-Sheet+vfx 3_2: -203238448377918847
+      Zombie Attack-Sheet+vfx 3_20: -5076069940427254214
+      Zombie Attack-Sheet+vfx 3_21: 2904566120611894282
+      Zombie Attack-Sheet+vfx 3_22: 7511862874232164159
+      Zombie Attack-Sheet+vfx 3_23: -6089956685768126835
+      Zombie Attack-Sheet+vfx 3_24: 2457775860845084570
+      Zombie Attack-Sheet+vfx 3_25: -1325520143912305368
+      Zombie Attack-Sheet+vfx 3_26: 4465470397221992494
+      Zombie Attack-Sheet+vfx 3_27: -572072994109836492
+      Zombie Attack-Sheet+vfx 3_28: -3555603206453850405
+      Zombie Attack-Sheet+vfx 3_29: 8615003804816518036
+      Zombie Attack-Sheet+vfx 3_3: -6041333342649809610
+      Zombie Attack-Sheet+vfx 3_30: -3449075750352984766
+      Zombie Attack-Sheet+vfx 3_31: -2767398027889603508
+      Zombie Attack-Sheet+vfx 3_4: 8163600453097237327
+      Zombie Attack-Sheet+vfx 3_5: 3263958441833497507
+      Zombie Attack-Sheet+vfx 3_6: -3920697340015347459
+      Zombie Attack-Sheet+vfx 3_7: -4245026988915589117
+      Zombie Attack-Sheet+vfx 3_8: 8680224001134243183
+      Zombie Attack-Sheet+vfx 3_9: -1936364928064044669
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -130,7 +130,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -144,7 +144,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -168,7 +168,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -922,7 +922,39 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Blue Knight attack 1 Sprite-sheet 32x32_0: 2294541782942387154
+      Blue Knight attack 1 Sprite-sheet 32x32_1: 5688382763355534489
+      Blue Knight attack 1 Sprite-sheet 32x32_10: -854352508143357588
+      Blue Knight attack 1 Sprite-sheet 32x32_11: 6032824647488492960
+      Blue Knight attack 1 Sprite-sheet 32x32_12: -595077254886948729
+      Blue Knight attack 1 Sprite-sheet 32x32_13: -6065463878670766749
+      Blue Knight attack 1 Sprite-sheet 32x32_14: -1128607007543838816
+      Blue Knight attack 1 Sprite-sheet 32x32_15: 7897475060399030108
+      Blue Knight attack 1 Sprite-sheet 32x32_16: 7851110130440486348
+      Blue Knight attack 1 Sprite-sheet 32x32_17: -7271740902550050814
+      Blue Knight attack 1 Sprite-sheet 32x32_18: -7962833314449909054
+      Blue Knight attack 1 Sprite-sheet 32x32_19: 4601861724362612065
+      Blue Knight attack 1 Sprite-sheet 32x32_2: 1954364450313113630
+      Blue Knight attack 1 Sprite-sheet 32x32_20: -3334691389356523084
+      Blue Knight attack 1 Sprite-sheet 32x32_21: -5193200537948202058
+      Blue Knight attack 1 Sprite-sheet 32x32_22: -2130208877312670365
+      Blue Knight attack 1 Sprite-sheet 32x32_23: 2482718059758216740
+      Blue Knight attack 1 Sprite-sheet 32x32_24: -1645403489447260556
+      Blue Knight attack 1 Sprite-sheet 32x32_25: 2956391495885959153
+      Blue Knight attack 1 Sprite-sheet 32x32_26: -2651927603860551880
+      Blue Knight attack 1 Sprite-sheet 32x32_27: -5331228023615072354
+      Blue Knight attack 1 Sprite-sheet 32x32_28: 7023830339356959087
+      Blue Knight attack 1 Sprite-sheet 32x32_29: -3873161106439073486
+      Blue Knight attack 1 Sprite-sheet 32x32_3: -3618236545032814475
+      Blue Knight attack 1 Sprite-sheet 32x32_30: 1542333364109564674
+      Blue Knight attack 1 Sprite-sheet 32x32_31: 8797956024449002788
+      Blue Knight attack 1 Sprite-sheet 32x32_4: 697280179190148365
+      Blue Knight attack 1 Sprite-sheet 32x32_5: 4540692438252955022
+      Blue Knight attack 1 Sprite-sheet 32x32_6: -2613688309531718979
+      Blue Knight attack 1 Sprite-sheet 32x32_7: -6900837776860210845
+      Blue Knight attack 1 Sprite-sheet 32x32_8: -2362422987156789878
+      Blue Knight attack 1 Sprite-sheet 32x32_9: -7556653812874099998
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

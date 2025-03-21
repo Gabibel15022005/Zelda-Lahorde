@@ -622,7 +622,27 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Dark-blue Idle_0: -2201991675162806677
+      Dark-blue Idle_1: -5611848735663834024
+      Dark-blue Idle_10: -4895168419278375420
+      Dark-blue Idle_11: -3862215872340128179
+      Dark-blue Idle_12: -977635818803489727
+      Dark-blue Idle_13: -2656938819573703414
+      Dark-blue Idle_14: 472251695734345426
+      Dark-blue Idle_15: 2451125582526716256
+      Dark-blue Idle_16: 5019166234602804009
+      Dark-blue Idle_17: -930131951435857293
+      Dark-blue Idle_18: -9167431029871074159
+      Dark-blue Idle_19: -8187855478387202192
+      Dark-blue Idle_2: 3906793127161818796
+      Dark-blue Idle_3: -6844163679651748664
+      Dark-blue Idle_4: 2376058641916650871
+      Dark-blue Idle_5: -7331121760018162303
+      Dark-blue Idle_6: -6924324016088662894
+      Dark-blue Idle_7: -1494181207299742012
+      Dark-blue Idle_8: -3611528842150955028
+      Dark-blue Idle_9: -4962103191569020964
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

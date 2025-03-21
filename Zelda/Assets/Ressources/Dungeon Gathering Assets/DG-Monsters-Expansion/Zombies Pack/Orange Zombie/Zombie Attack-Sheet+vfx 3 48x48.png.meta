@@ -922,7 +922,39 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Zombie Attack-Sheet+vfx 3 48x48_0: 816555571034492528
+      Zombie Attack-Sheet+vfx 3 48x48_1: -4393500287464872881
+      Zombie Attack-Sheet+vfx 3 48x48_10: 5819198030347568807
+      Zombie Attack-Sheet+vfx 3 48x48_11: -8389384477788371278
+      Zombie Attack-Sheet+vfx 3 48x48_12: -37403019222295297
+      Zombie Attack-Sheet+vfx 3 48x48_13: 7771026713747127058
+      Zombie Attack-Sheet+vfx 3 48x48_14: -4679578431596134799
+      Zombie Attack-Sheet+vfx 3 48x48_15: -1585620923082785359
+      Zombie Attack-Sheet+vfx 3 48x48_16: 5714011322217897679
+      Zombie Attack-Sheet+vfx 3 48x48_17: -2739854957088321968
+      Zombie Attack-Sheet+vfx 3 48x48_18: 8072392575309561257
+      Zombie Attack-Sheet+vfx 3 48x48_19: -3806695653926201151
+      Zombie Attack-Sheet+vfx 3 48x48_2: -5053606936383488702
+      Zombie Attack-Sheet+vfx 3 48x48_20: 7525094333780846702
+      Zombie Attack-Sheet+vfx 3 48x48_21: -7935663810599328579
+      Zombie Attack-Sheet+vfx 3 48x48_22: 8540869265918981342
+      Zombie Attack-Sheet+vfx 3 48x48_23: -6879510256060392140
+      Zombie Attack-Sheet+vfx 3 48x48_24: 4312458779888971404
+      Zombie Attack-Sheet+vfx 3 48x48_25: -1154183129840485490
+      Zombie Attack-Sheet+vfx 3 48x48_26: -6410904668211955088
+      Zombie Attack-Sheet+vfx 3 48x48_27: -1862129781746794175
+      Zombie Attack-Sheet+vfx 3 48x48_28: 8968900227627488211
+      Zombie Attack-Sheet+vfx 3 48x48_29: -4535953771120921766
+      Zombie Attack-Sheet+vfx 3 48x48_3: -4184166671815159225
+      Zombie Attack-Sheet+vfx 3 48x48_30: -1429685168293127472
+      Zombie Attack-Sheet+vfx 3 48x48_31: 6621371856151674024
+      Zombie Attack-Sheet+vfx 3 48x48_4: -2129377464089963981
+      Zombie Attack-Sheet+vfx 3 48x48_5: 6554758517241050739
+      Zombie Attack-Sheet+vfx 3 48x48_6: -7826901097715542844
+      Zombie Attack-Sheet+vfx 3 48x48_7: -7732959765248210095
+      Zombie Attack-Sheet+vfx 3 48x48_8: -9077978150743300435
+      Zombie Attack-Sheet+vfx 3 48x48_9: 1441931219078183998
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

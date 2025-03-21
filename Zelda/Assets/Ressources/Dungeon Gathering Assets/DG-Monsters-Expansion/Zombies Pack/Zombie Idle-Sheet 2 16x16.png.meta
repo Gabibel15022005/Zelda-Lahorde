@@ -922,7 +922,39 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Zombie Idle-Sheet 2 16x16_0: 5171092562266559206
+      Zombie Idle-Sheet 2 16x16_1: 8813567918394590023
+      Zombie Idle-Sheet 2 16x16_10: -144184176748188933
+      Zombie Idle-Sheet 2 16x16_11: -5844350761564186790
+      Zombie Idle-Sheet 2 16x16_12: 6173176206325354897
+      Zombie Idle-Sheet 2 16x16_13: -3667111127140151834
+      Zombie Idle-Sheet 2 16x16_14: 7199893659790905003
+      Zombie Idle-Sheet 2 16x16_15: 6500443478949083740
+      Zombie Idle-Sheet 2 16x16_16: 3313479641051385353
+      Zombie Idle-Sheet 2 16x16_17: -5733654722801237148
+      Zombie Idle-Sheet 2 16x16_18: -8896086285016657033
+      Zombie Idle-Sheet 2 16x16_19: 7561992045444971778
+      Zombie Idle-Sheet 2 16x16_2: -5655817357061699748
+      Zombie Idle-Sheet 2 16x16_20: 783859623800263403
+      Zombie Idle-Sheet 2 16x16_21: 4662652127978087428
+      Zombie Idle-Sheet 2 16x16_22: 8962971024587141827
+      Zombie Idle-Sheet 2 16x16_23: -5998292672922881032
+      Zombie Idle-Sheet 2 16x16_24: 2395453314158073605
+      Zombie Idle-Sheet 2 16x16_25: 2503463283794373913
+      Zombie Idle-Sheet 2 16x16_26: -3699794937898645606
+      Zombie Idle-Sheet 2 16x16_27: 7993149001606211536
+      Zombie Idle-Sheet 2 16x16_28: -266180981699848547
+      Zombie Idle-Sheet 2 16x16_29: 2827765694607942747
+      Zombie Idle-Sheet 2 16x16_3: 7490226247193296181
+      Zombie Idle-Sheet 2 16x16_30: -2071267228974597850
+      Zombie Idle-Sheet 2 16x16_31: 495472485833422892
+      Zombie Idle-Sheet 2 16x16_4: 1030002107895816894
+      Zombie Idle-Sheet 2 16x16_5: -5539234664340724550
+      Zombie Idle-Sheet 2 16x16_6: 7405176955484417138
+      Zombie Idle-Sheet 2 16x16_7: -5905590250453068353
+      Zombie Idle-Sheet 2 16x16_8: 1147069880178320308
+      Zombie Idle-Sheet 2 16x16_9: 5663511665980123550
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

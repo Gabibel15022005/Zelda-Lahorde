@@ -297,7 +297,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Slime King Spawn 3_0: -4562675647443622035
+      Slime King Spawn 3_1: -1261962091623294824
+      Slime King Spawn 3_2: 2517866405335966881
+      Slime King Spawn 3_3: 6497569192775500177
+      Slime King Spawn 3_4: 3453279921216411635
+      Slime King Spawn 3_5: 8474493359175782029
+      Slime King Spawn 3_6: -7820547713376729465
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -572,7 +572,25 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Yellow Knight set Sprite-sheet_0: -3825307171576781583
+      Yellow Knight set Sprite-sheet_1: 3020555506484439844
+      Yellow Knight set Sprite-sheet_10: -3671198286979163398
+      Yellow Knight set Sprite-sheet_11: 6566472446222781485
+      Yellow Knight set Sprite-sheet_12: -837921049810075536
+      Yellow Knight set Sprite-sheet_13: -3059762896160941105
+      Yellow Knight set Sprite-sheet_14: 4466177382784096565
+      Yellow Knight set Sprite-sheet_15: -738870473558086541
+      Yellow Knight set Sprite-sheet_16: 1020098912341984277
+      Yellow Knight set Sprite-sheet_17: -7254729399546924080
+      Yellow Knight set Sprite-sheet_2: -3512392887778901141
+      Yellow Knight set Sprite-sheet_3: 2590044067490314182
+      Yellow Knight set Sprite-sheet_4: 4401086419327883394
+      Yellow Knight set Sprite-sheet_5: -85264718151577867
+      Yellow Knight set Sprite-sheet_6: 2714285072485478731
+      Yellow Knight set Sprite-sheet_7: -8453945345021780637
+      Yellow Knight set Sprite-sheet_8: -7356090550434363857
+      Yellow Knight set Sprite-sheet_9: -8941292097837134702
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -622,7 +622,27 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Red Knight idle Sprite-sheet 16x16_0: -6038538450870676446
+      Red Knight idle Sprite-sheet 16x16_1: 1796808648005334894
+      Red Knight idle Sprite-sheet 16x16_10: 3341713639549304526
+      Red Knight idle Sprite-sheet 16x16_11: 627617791175145156
+      Red Knight idle Sprite-sheet 16x16_12: -1406987812493754388
+      Red Knight idle Sprite-sheet 16x16_13: 8397097527554553809
+      Red Knight idle Sprite-sheet 16x16_14: 3328003813288974781
+      Red Knight idle Sprite-sheet 16x16_15: -3641022884322451658
+      Red Knight idle Sprite-sheet 16x16_16: -3760579663872022168
+      Red Knight idle Sprite-sheet 16x16_17: -8651785603411665699
+      Red Knight idle Sprite-sheet 16x16_18: -1031845398622974035
+      Red Knight idle Sprite-sheet 16x16_19: -2959194242066426966
+      Red Knight idle Sprite-sheet 16x16_2: -5156868910747477634
+      Red Knight idle Sprite-sheet 16x16_3: -8960889615863694921
+      Red Knight idle Sprite-sheet 16x16_4: 5497273614860955641
+      Red Knight idle Sprite-sheet 16x16_5: 7385816100655896847
+      Red Knight idle Sprite-sheet 16x16_6: 4931860942120921388
+      Red Knight idle Sprite-sheet 16x16_7: -4127387251045170869
+      Red Knight idle Sprite-sheet 16x16_8: 2353544577365476765
+      Red Knight idle Sprite-sheet 16x16_9: -7375818088761397959
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -622,7 +622,27 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Yellow Knight idle Sprite-sheet 16x16_0: -6384738716068642241
+      Yellow Knight idle Sprite-sheet 16x16_1: -379108406828316568
+      Yellow Knight idle Sprite-sheet 16x16_10: 3479292016831831767
+      Yellow Knight idle Sprite-sheet 16x16_11: -1048727491254450322
+      Yellow Knight idle Sprite-sheet 16x16_12: 3097238539474207341
+      Yellow Knight idle Sprite-sheet 16x16_13: 5243939278178779060
+      Yellow Knight idle Sprite-sheet 16x16_14: 3734353880318110912
+      Yellow Knight idle Sprite-sheet 16x16_15: 2056764467779153478
+      Yellow Knight idle Sprite-sheet 16x16_16: 8438375707182856045
+      Yellow Knight idle Sprite-sheet 16x16_17: -143281006931123074
+      Yellow Knight idle Sprite-sheet 16x16_18: -3404172954260987749
+      Yellow Knight idle Sprite-sheet 16x16_19: 1595676017081957046
+      Yellow Knight idle Sprite-sheet 16x16_2: 3990332051730623578
+      Yellow Knight idle Sprite-sheet 16x16_3: 8030904094574223401
+      Yellow Knight idle Sprite-sheet 16x16_4: -6948191980416026087
+      Yellow Knight idle Sprite-sheet 16x16_5: 4373778660382711557
+      Yellow Knight idle Sprite-sheet 16x16_6: -8704860973199394791
+      Yellow Knight idle Sprite-sheet 16x16_7: 6009852888186157751
+      Yellow Knight idle Sprite-sheet 16x16_8: -4864465705140276360
+      Yellow Knight idle Sprite-sheet 16x16_9: 5095633639444259024
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

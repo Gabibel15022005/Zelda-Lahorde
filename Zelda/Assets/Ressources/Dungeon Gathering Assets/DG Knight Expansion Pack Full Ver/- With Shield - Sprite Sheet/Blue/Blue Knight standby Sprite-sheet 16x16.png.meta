@@ -154,7 +154,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -168,7 +168,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -192,7 +192,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -1122,7 +1122,47 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Blue Knight standby Sprite-sheet 16x16_0: 9153163235432782008
+      Blue Knight standby Sprite-sheet 16x16_1: -7312623858986340785
+      Blue Knight standby Sprite-sheet 16x16_10: 7589179770810310323
+      Blue Knight standby Sprite-sheet 16x16_11: -4010926248195414762
+      Blue Knight standby Sprite-sheet 16x16_12: -986933314090685878
+      Blue Knight standby Sprite-sheet 16x16_13: -7059375010233649998
+      Blue Knight standby Sprite-sheet 16x16_14: 1465076547958891708
+      Blue Knight standby Sprite-sheet 16x16_15: -7555058411467996561
+      Blue Knight standby Sprite-sheet 16x16_16: 8385643114920821273
+      Blue Knight standby Sprite-sheet 16x16_17: 7855070804145528833
+      Blue Knight standby Sprite-sheet 16x16_18: 3757506579721819886
+      Blue Knight standby Sprite-sheet 16x16_19: -1636492708328445226
+      Blue Knight standby Sprite-sheet 16x16_2: 3009710210456340705
+      Blue Knight standby Sprite-sheet 16x16_20: -6431447056890321645
+      Blue Knight standby Sprite-sheet 16x16_21: 8237973044311923726
+      Blue Knight standby Sprite-sheet 16x16_22: -6171319119674526400
+      Blue Knight standby Sprite-sheet 16x16_23: -6650440300405791334
+      Blue Knight standby Sprite-sheet 16x16_24: 6468995734901562342
+      Blue Knight standby Sprite-sheet 16x16_25: 7616886783190376970
+      Blue Knight standby Sprite-sheet 16x16_26: 4281915162231174354
+      Blue Knight standby Sprite-sheet 16x16_27: -7245665479286604734
+      Blue Knight standby Sprite-sheet 16x16_28: -6341658723712860279
+      Blue Knight standby Sprite-sheet 16x16_29: -1935890759686711846
+      Blue Knight standby Sprite-sheet 16x16_3: 9150967055628912340
+      Blue Knight standby Sprite-sheet 16x16_30: 5786936258941099637
+      Blue Knight standby Sprite-sheet 16x16_31: -5093226443745175007
+      Blue Knight standby Sprite-sheet 16x16_32: 2999075205751095173
+      Blue Knight standby Sprite-sheet 16x16_33: -5611283332826922599
+      Blue Knight standby Sprite-sheet 16x16_34: 6762724386171249356
+      Blue Knight standby Sprite-sheet 16x16_35: 188148050245325328
+      Blue Knight standby Sprite-sheet 16x16_36: 840607488230514607
+      Blue Knight standby Sprite-sheet 16x16_37: -1268654147998594218
+      Blue Knight standby Sprite-sheet 16x16_38: 2203073603401909961
+      Blue Knight standby Sprite-sheet 16x16_39: -538297317317137032
+      Blue Knight standby Sprite-sheet 16x16_4: 8785664434897045567
+      Blue Knight standby Sprite-sheet 16x16_5: -158553580341550909
+      Blue Knight standby Sprite-sheet 16x16_6: 40154411738020149
+      Blue Knight standby Sprite-sheet 16x16_7: -3195850752828621534
+      Blue Knight standby Sprite-sheet 16x16_8: 186287436720294357
+      Blue Knight standby Sprite-sheet 16x16_9: -5424909818249392405
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

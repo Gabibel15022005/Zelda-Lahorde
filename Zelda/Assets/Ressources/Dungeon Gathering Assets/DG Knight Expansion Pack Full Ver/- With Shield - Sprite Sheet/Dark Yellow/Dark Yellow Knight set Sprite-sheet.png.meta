@@ -472,7 +472,21 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Dark Yellow Knight set Sprite-sheet_0: 5766108748455557596
+      Dark Yellow Knight set Sprite-sheet_1: -1917312920704505099
+      Dark Yellow Knight set Sprite-sheet_10: -6423196837009523058
+      Dark Yellow Knight set Sprite-sheet_11: -3759863802686380670
+      Dark Yellow Knight set Sprite-sheet_12: 1136327855159762355
+      Dark Yellow Knight set Sprite-sheet_13: -8666559414442002672
+      Dark Yellow Knight set Sprite-sheet_2: 863170333511290958
+      Dark Yellow Knight set Sprite-sheet_3: -7062028283797243532
+      Dark Yellow Knight set Sprite-sheet_4: 4040223077233984129
+      Dark Yellow Knight set Sprite-sheet_5: 5456517706083704526
+      Dark Yellow Knight set Sprite-sheet_6: 2702464244513840540
+      Dark Yellow Knight set Sprite-sheet_7: -6945594162808311548
+      Dark Yellow Knight set Sprite-sheet_8: -356180527553289565
+      Dark Yellow Knight set Sprite-sheet_9: 2112931871290046590
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -622,7 +622,27 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Blue Knight idle Sprite-sheet 16x16_0: 2596844003648192100
+      Blue Knight idle Sprite-sheet 16x16_1: 1794730396668219854
+      Blue Knight idle Sprite-sheet 16x16_10: 6817140010153936105
+      Blue Knight idle Sprite-sheet 16x16_11: 5293875467149710717
+      Blue Knight idle Sprite-sheet 16x16_12: -8181381550169696062
+      Blue Knight idle Sprite-sheet 16x16_13: 7416626095415050163
+      Blue Knight idle Sprite-sheet 16x16_14: 7353165688239767475
+      Blue Knight idle Sprite-sheet 16x16_15: -4938983701706994599
+      Blue Knight idle Sprite-sheet 16x16_16: -4408785941933458326
+      Blue Knight idle Sprite-sheet 16x16_17: -277927514095874268
+      Blue Knight idle Sprite-sheet 16x16_18: 1759465903576458673
+      Blue Knight idle Sprite-sheet 16x16_19: 525844938984688427
+      Blue Knight idle Sprite-sheet 16x16_2: -7778867024889354036
+      Blue Knight idle Sprite-sheet 16x16_3: 8245896868816066125
+      Blue Knight idle Sprite-sheet 16x16_4: 1704294983499483484
+      Blue Knight idle Sprite-sheet 16x16_5: 5110142268613017198
+      Blue Knight idle Sprite-sheet 16x16_6: -2511857645008635985
+      Blue Knight idle Sprite-sheet 16x16_7: -8949599633578858399
+      Blue Knight idle Sprite-sheet 16x16_8: 1647920179239072915
+      Blue Knight idle Sprite-sheet 16x16_9: -3834282578734961935
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

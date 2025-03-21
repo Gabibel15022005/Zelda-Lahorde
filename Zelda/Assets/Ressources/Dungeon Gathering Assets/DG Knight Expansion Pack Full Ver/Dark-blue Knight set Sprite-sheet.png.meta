@@ -79,7 +79,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -93,7 +93,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -117,7 +117,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -497,7 +497,22 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Dark-blue Knight set Sprite-sheet_0: 3305021756667190751
+      Dark-blue Knight set Sprite-sheet_1: -2053656586345775206
+      Dark-blue Knight set Sprite-sheet_10: 6589952038056767876
+      Dark-blue Knight set Sprite-sheet_11: -4991674780054558376
+      Dark-blue Knight set Sprite-sheet_12: -4129714090306103896
+      Dark-blue Knight set Sprite-sheet_13: 1551767847095190874
+      Dark-blue Knight set Sprite-sheet_14: -1035336578167145728
+      Dark-blue Knight set Sprite-sheet_2: -1397118252329545127
+      Dark-blue Knight set Sprite-sheet_3: -4328101945782689941
+      Dark-blue Knight set Sprite-sheet_4: 7086247747438214018
+      Dark-blue Knight set Sprite-sheet_5: 5731875562450441653
+      Dark-blue Knight set Sprite-sheet_6: 8223245237065340496
+      Dark-blue Knight set Sprite-sheet_7: -3577587988519968039
+      Dark-blue Knight set Sprite-sheet_8: 8770747300272638945
+      Dark-blue Knight set Sprite-sheet_9: -4871328756578136944
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

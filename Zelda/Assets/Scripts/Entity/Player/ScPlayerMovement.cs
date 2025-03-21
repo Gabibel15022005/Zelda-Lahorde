@@ -35,7 +35,8 @@ public class ScPlayerMovement : MonoBehaviour
     public void CantMove()
     {
         _canMove = false; // pour cancel les autres actions
-        _rb.linearVelocity = Vector2.zero; // arrete le joueur sur place
+        _animator.SetBool("IsMoving",false);
+        _animator.SetBool("IsRunning",false);
     }
     public void CanMove()
     {
@@ -49,10 +50,6 @@ public class ScPlayerMovement : MonoBehaviour
 
             _moveInput = (rawInput.magnitude > _deadZone) ? rawInput : Vector2.zero;
 
-        }
-        else if (context.canceled)
-        {
-            _moveInput = Vector2.zero;
         }
     }
 
@@ -70,9 +67,9 @@ public class ScPlayerMovement : MonoBehaviour
 
     void Move()
     {
-        if (!_isRunning)
+        if (!_isRunning && _canMove)
         _rb.linearVelocity = _moveInput.normalized * _speed;
-        else
+        else if (_canMove)
         _rb.linearVelocity = _moveInput.normalized * _runningSpeed;
     }
 

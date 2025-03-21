@@ -9,6 +9,7 @@ public class ScInGameUI : MonoBehaviour
 
 {   
     [SerializeField] private ScInventoryUIManager _inventoryManager;
+    [SerializeField] private ScDialogueManager _dialogueManager;
     EventSystem _eventManager;
     Animator _animator;
     Animator _transitionAnimator;
@@ -140,6 +141,11 @@ public class ScInGameUI : MonoBehaviour
     public ScInventoryUIManager GetInventoryManager()
     {
         return _inventoryManager;
+    }
+
+    public ScDialogueManager GetDialogueManager()
+    {
+        return _dialogueManager;
     }
     #endregion
 

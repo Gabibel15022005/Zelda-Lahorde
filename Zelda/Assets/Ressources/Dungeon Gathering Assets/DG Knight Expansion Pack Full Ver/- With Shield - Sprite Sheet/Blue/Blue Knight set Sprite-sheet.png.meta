@@ -88,7 +88,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -102,7 +102,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -126,7 +126,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -572,7 +572,25 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Blue Knight set Sprite-sheet_0: -5007577347775944336
+      Blue Knight set Sprite-sheet_1: 4168566098508862718
+      Blue Knight set Sprite-sheet_10: -1006522494506441274
+      Blue Knight set Sprite-sheet_11: 5547968592996415209
+      Blue Knight set Sprite-sheet_12: 4148040512602094061
+      Blue Knight set Sprite-sheet_13: 857625322293115449
+      Blue Knight set Sprite-sheet_14: -7132944316339152867
+      Blue Knight set Sprite-sheet_15: -3052652502131498723
+      Blue Knight set Sprite-sheet_16: -1037788576119904660
+      Blue Knight set Sprite-sheet_17: 6888616148328057067
+      Blue Knight set Sprite-sheet_2: 9202768537163392043
+      Blue Knight set Sprite-sheet_3: -7427571811518397544
+      Blue Knight set Sprite-sheet_4: -7683067288443105366
+      Blue Knight set Sprite-sheet_5: -238362012360791376
+      Blue Knight set Sprite-sheet_6: 3629040601207018128
+      Blue Knight set Sprite-sheet_7: -2071997922425651704
+      Blue Knight set Sprite-sheet_8: -6123906644191555176
+      Blue Knight set Sprite-sheet_9: -3786343720274548111
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

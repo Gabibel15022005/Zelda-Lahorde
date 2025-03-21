@@ -130,7 +130,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -144,7 +144,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -168,7 +168,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -922,7 +922,39 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Blue Knight hit 2 Sprite-sheet 16x20_0: -2463423719636826608
+      Blue Knight hit 2 Sprite-sheet 16x20_1: -8144525311228353281
+      Blue Knight hit 2 Sprite-sheet 16x20_10: 8744455731879425692
+      Blue Knight hit 2 Sprite-sheet 16x20_11: -8873732011344123738
+      Blue Knight hit 2 Sprite-sheet 16x20_12: 3664674622432804345
+      Blue Knight hit 2 Sprite-sheet 16x20_13: 4637162874312857154
+      Blue Knight hit 2 Sprite-sheet 16x20_14: 5228984214185677587
+      Blue Knight hit 2 Sprite-sheet 16x20_15: -3065843255523375952
+      Blue Knight hit 2 Sprite-sheet 16x20_16: -121100217284728970
+      Blue Knight hit 2 Sprite-sheet 16x20_17: -906552952311875555
+      Blue Knight hit 2 Sprite-sheet 16x20_18: 8966077075506546161
+      Blue Knight hit 2 Sprite-sheet 16x20_19: 81897543201393712
+      Blue Knight hit 2 Sprite-sheet 16x20_2: -3263002967203179430
+      Blue Knight hit 2 Sprite-sheet 16x20_20: 7663767618373125312
+      Blue Knight hit 2 Sprite-sheet 16x20_21: 1297802444753088721
+      Blue Knight hit 2 Sprite-sheet 16x20_22: -2793488974559410878
+      Blue Knight hit 2 Sprite-sheet 16x20_23: 1306099701946571349
+      Blue Knight hit 2 Sprite-sheet 16x20_24: 510090099282819142
+      Blue Knight hit 2 Sprite-sheet 16x20_25: 6006146362780138593
+      Blue Knight hit 2 Sprite-sheet 16x20_26: 3980847365102155375
+      Blue Knight hit 2 Sprite-sheet 16x20_27: 121089772952225515
+      Blue Knight hit 2 Sprite-sheet 16x20_28: -6668284257812832238
+      Blue Knight hit 2 Sprite-sheet 16x20_29: -3800653591206949699
+      Blue Knight hit 2 Sprite-sheet 16x20_3: 6906374147685486649
+      Blue Knight hit 2 Sprite-sheet 16x20_30: 7833801592512819979
+      Blue Knight hit 2 Sprite-sheet 16x20_31: 2178412750266415808
+      Blue Knight hit 2 Sprite-sheet 16x20_4: -4960110582437841263
+      Blue Knight hit 2 Sprite-sheet 16x20_5: -2853850719944436573
+      Blue Knight hit 2 Sprite-sheet 16x20_6: 1588113374410349005
+      Blue Knight hit 2 Sprite-sheet 16x20_7: 3084252270905230082
+      Blue Knight hit 2 Sprite-sheet 16x20_8: 5105695724965433082
+      Blue Knight hit 2 Sprite-sheet 16x20_9: 8689791706809440051
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -772,7 +772,33 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      red Knight run Sprite-sheet 16x17_0: 8490704085664520779
+      red Knight run Sprite-sheet 16x17_1: -2275234560750168469
+      red Knight run Sprite-sheet 16x17_10: -7098696482063357080
+      red Knight run Sprite-sheet 16x17_11: -8157023695614020562
+      red Knight run Sprite-sheet 16x17_12: -6693207353230519548
+      red Knight run Sprite-sheet 16x17_13: -5915791185957977461
+      red Knight run Sprite-sheet 16x17_14: -1495727511456246444
+      red Knight run Sprite-sheet 16x17_15: -2579298844435053087
+      red Knight run Sprite-sheet 16x17_16: 2415274780236659248
+      red Knight run Sprite-sheet 16x17_17: 7451044108758964384
+      red Knight run Sprite-sheet 16x17_18: -3920959685347805848
+      red Knight run Sprite-sheet 16x17_19: -650092088728936873
+      red Knight run Sprite-sheet 16x17_2: -891006418259798095
+      red Knight run Sprite-sheet 16x17_20: -1027662631515486730
+      red Knight run Sprite-sheet 16x17_21: 1568241101936802006
+      red Knight run Sprite-sheet 16x17_22: -5242551112259772838
+      red Knight run Sprite-sheet 16x17_23: -6623796599900526374
+      red Knight run Sprite-sheet 16x17_24: -2367389395827960646
+      red Knight run Sprite-sheet 16x17_25: -6520638035304030212
+      red Knight run Sprite-sheet 16x17_3: -5934426010452005587
+      red Knight run Sprite-sheet 16x17_4: 8022418853252039730
+      red Knight run Sprite-sheet 16x17_5: 4032537895015163961
+      red Knight run Sprite-sheet 16x17_6: 8978709095183240997
+      red Knight run Sprite-sheet 16x17_7: -9215384777572928975
+      red Knight run Sprite-sheet 16x17_8: -7042142584559121671
+      red Knight run Sprite-sheet 16x17_9: 8393629404584804898
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
