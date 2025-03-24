@@ -14,8 +14,22 @@ public class ScCameraMoveTowards : MonoBehaviour
 
     private Transform _dialogueTarget = null;
     [SerializeField] private float _zoomDialogueTarget;
+    bool _startPos = true;
+    void Awake() 
+    {
+        if (PlayerPrefs.HasKey("PlayerPosX") && PlayerPrefs.HasKey("PlayerPosY"))
+        {
+            Vector3 startPos = new Vector3(PlayerPrefs.GetFloat("PlayerPosX"),
+            PlayerPrefs.GetFloat("PlayerPosY"), transform.position.z);
+
+            transform.position = startPos;
+        }
+        _startPos = false; // une fois que la cam à été placer sur le joueur , commence le comportement
+    }
     
     void Start() {
+
+
         cam = GetComponent<Camera>();
         _originalZoom = cam.orthographicSize ;
         _zoomTarget = _originalZoom;
@@ -23,6 +37,7 @@ public class ScCameraMoveTowards : MonoBehaviour
     void Update()
     {
         if (_target == null) return;
+        if (_startPos) return;
 
         MoveToward();
         ZoomToward();

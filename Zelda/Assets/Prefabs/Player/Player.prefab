@@ -191,6 +191,9 @@ MonoBehaviour:
   _PNJLayerMask:
     serializedVersion: 2
     m_Bits: 64
+  _savePointLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
   _posObjInteract: {fileID: 8430796808171141983}
 --- !u!114 &6710882156250009420
 MonoBehaviour:

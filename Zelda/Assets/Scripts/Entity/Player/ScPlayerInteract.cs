@@ -9,6 +9,7 @@ public class ScPlayerInteract : MonoBehaviour
     [SerializeField] float _size = 2f;
     [SerializeField] LayerMask _itemLayerMask;
     [SerializeField] LayerMask _PNJLayerMask;
+    [SerializeField] LayerMask _savePointLayerMask;
     private bool _isInteracting = false;
     private bool _canInteract = true;
     private bool _isCalledOnce = false;
@@ -21,7 +22,6 @@ public class ScPlayerInteract : MonoBehaviour
     {
         _animator = GetComponent<Animator>();
         _inventoryManager = Camera.main.GetComponent<ScInGameUI>().GetInventoryManager();
-        Debug.Log(_inventoryManager);
         movement = GetComponent<ScPlayerMovement>();
     }
     void Update()
@@ -31,8 +31,19 @@ public class ScPlayerInteract : MonoBehaviour
 
     void CheckAround()
     {
+        Collider2D[] savePointCheck = Physics2D.OverlapCircleAll(transform.position, _size, _savePointLayerMask);
         Collider2D[] itemCheck = Physics2D.OverlapCircleAll(transform.position, _size, _itemLayerMask);
         Collider2D[] PNJCheck = Physics2D.OverlapCircleAll(transform.position, _size, _PNJLayerMask);
+
+        if (savePointCheck.Length > 0 && _isInteracting && _canInteract)
+        {
+            // mettre le joueur à cant move et cant use item et cant interact
+            _canInteract = false;
+
+            savePointCheck[0].GetComponent<ScSavePoint>().UseSavePoint(transform);
+
+            return;
+        }
 
         if (itemCheck.Length > 0 && _isInteracting && _canInteract)
         {
@@ -74,12 +85,6 @@ public class ScPlayerInteract : MonoBehaviour
             item.transform.SetParent(_posObjInteract); // place le à la bonne position
             item.GetSprite().sortingOrder = 30; // met le sprite devant tout
             item.transform.position = _posObjInteract.position; // place le au centre
-        }
-    
-        if (PNJCheck.Length > 0)
-        {
-            // rajouter une verif pour si on est en discussion ou pas (pour ne pas afficher l'ui pour rien)
-            // faire apparaitre l'UI au dessus du joueur
         }
 
         if (PNJCheck.Length > 0 && _isInteracting && !_isCalledOnce)

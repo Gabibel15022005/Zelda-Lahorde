@@ -5,6 +5,7 @@ using UnityEngine;
 public class ScSlimeBehaviour : MonoBehaviour
 {
     [SerializeField] float _size = 2f;
+    float _actualSize;
     [SerializeField] LayerMask _targetLayerMask;
     [SerializeField] float _delayBetweenMove = 1f;
     ScEnemyStats _enemyStats;
@@ -18,6 +19,7 @@ public class ScSlimeBehaviour : MonoBehaviour
     {
         _enemyStats = GetComponent<ScEnemyStats>();
         _rb = GetComponent<Rigidbody2D>();
+        _actualSize = _size;
     }
 
     void Update() 
@@ -38,7 +40,16 @@ public class ScSlimeBehaviour : MonoBehaviour
 
     private void CheckAround()
     {
-        Collider2D[] targetCheck = Physics2D.OverlapCircleAll(transform.position, _size, _targetLayerMask);
+        if (_hasFoundTarget)
+        {
+            _actualSize = _size * 2f;
+        }
+        else 
+        {
+            _actualSize = _size;
+        }
+
+        Collider2D[] targetCheck = Physics2D.OverlapCircleAll(transform.position, _actualSize, _targetLayerMask);
 
         _hasFoundTarget = targetCheck.Length > 0;
 
@@ -56,6 +67,7 @@ public class ScSlimeBehaviour : MonoBehaviour
     {
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, _size);
+        Gizmos.DrawWireSphere(transform.position, _actualSize);
     }
 
     IEnumerator ChaseTarget()
