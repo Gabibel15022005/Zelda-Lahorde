@@ -9,11 +9,14 @@ public class ScPlayerStats : ScStats
     ScPlayerUseItem _playerUseItem;
     ScPlayerMovement _playerMovement;
     private bool _isTakingDamage = false;
+    ScInGameUI _uiManager;
 
     override public void Start()
     {
         _animator = GetComponent<Animator>();
         _rb = GetComponent<Rigidbody2D>();
+
+        _uiManager =Camera.main.GetComponent<ScInGameUI>();
 
         _playerUseItem = GetComponent<ScPlayerUseItem>();
         _playerMovement = GetComponent<ScPlayerMovement>();
@@ -27,6 +30,10 @@ public class ScPlayerStats : ScStats
 
         _hpMax = PlayerPrefs.GetInt("Player_hpMax");
         _hp = _hpMax;
+
+        //Debug.Log($"_hp : {_hp}");
+        _uiManager.UpdateHp(_hp);
+
     }
     override public void TakeDamage(int damage)
     {
@@ -34,6 +41,8 @@ public class ScPlayerStats : ScStats
 
         _hp -= damage;
         if (_hp < 0) _hp = 0;
+
+        _uiManager.UpdateHp(_hp);
     }
 
     public void PushedBack(Transform damagePos, float power)

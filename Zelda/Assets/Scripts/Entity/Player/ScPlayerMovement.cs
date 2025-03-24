@@ -19,6 +19,14 @@ public class ScPlayerMovement : MonoBehaviour
     private bool _canMove = true;
     void Start()
     {
+        if (PlayerPrefs.HasKey("PlayerPosX") && PlayerPrefs.HasKey("PlayerPosY"))
+        {
+            Vector3 startPos = new Vector3(PlayerPrefs.GetFloat("PlayerPosX"),
+            PlayerPrefs.GetFloat("PlayerPosY"), transform.position.z);
+
+            transform.position = startPos;
+        }
+
         _animator = GetComponent<Animator>();
         _stats = GetComponent<ScPlayerStats>();
         _rb = GetComponent<Rigidbody2D>();

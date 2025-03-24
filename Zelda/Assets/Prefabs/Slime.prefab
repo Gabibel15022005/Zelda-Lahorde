@@ -82,7 +82,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _hpMax: 3
-  _speed: 6
+  _speed: 7
   _objPossible:
   - {fileID: 5151082078752101030, guid: b589ef5bd5e874a468ceedb28cf45c09, type: 3}
   - {fileID: 0}

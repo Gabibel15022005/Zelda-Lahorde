@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class ScInGameUI : MonoBehaviour
-
 {   
     [SerializeField] private ScInventoryUIManager _inventoryManager;
     [SerializeField] private ScDialogueManager _dialogueManager;
@@ -20,6 +19,7 @@ public class ScInGameUI : MonoBehaviour
     bool _isGamePaused = false;
     [SerializeField] GameObject FirstButtonInventory;
     [SerializeField] GameObject FirstButtonPauseMenu;
+    [SerializeField] List<GameObject> _images;
 
 #region Basic Behaviour
     void Start()
@@ -147,7 +147,25 @@ public class ScInGameUI : MonoBehaviour
     {
         return _dialogueManager;
     }
-    #endregion
+#endregion
+
+#region HP Bar
+    public void UpdateHp(int hp)
+    {
+        foreach (GameObject image in _images)
+        {
+            if (hp > 0)
+            {
+                image.SetActive(true);
+                hp--;
+            }
+            else
+            {
+                image.SetActive(false);
+            }
+        }
+    }
+#endregion
 
 
 }

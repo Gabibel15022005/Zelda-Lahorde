@@ -16,7 +16,6 @@ public class ScPlayerUseItem : MonoBehaviour
         _player = GetComponent<ScPlayerMovement>();
         _animator = GetComponent<Animator>();
         _inventoryManager = Camera.main.GetComponent<ScInGameUI>().GetInventoryManager();
-        Debug.Log(_inventoryManager);
     }
 
     public void OnItem1(InputAction.CallbackContext context)
@@ -68,6 +67,7 @@ public class ScPlayerUseItem : MonoBehaviour
         {
             PlayerPrefs.SetInt($"{name}Qt",0);
             PlayerPrefs.Save();
+            SetIsUsingItem();
             return;
         }
         if (PlayerPrefs.GetInt($"{name}IsConsommable") == 1) // si consommable 
@@ -79,17 +79,26 @@ public class ScPlayerUseItem : MonoBehaviour
 
         switch (name)
         {
-            case "Item Test":
-                Debug.Log(name);
-            break;
-
             case "Sword":
                 Debug.Log(name);
                 UseSword();
             break;
 
+            case "Bombe":
+                Debug.Log(name);
+                // fonction de Bombe
+                SetIsUsingItem();
+            break;
+
+            case "Magic Staff":
+                Debug.Log(name);
+                // fonction de Magic Staff
+                SetIsUsingItem();
+            break;
+
             default:
                 Debug.Log("The item name is not in the list of behaviour");
+                SetIsUsingItem();
             break;
         }
     }

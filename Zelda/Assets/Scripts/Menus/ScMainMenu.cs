@@ -21,7 +21,10 @@ public class ScMainMenu : MonoBehaviour
     }
     public void Continue()
     {
+        if (PlayerPrefs.HasKey("Scene"))
         StartCoroutine(CoContinue());
+        else
+        StartCoroutine(CoNewGame());
     }
     public void NewGame()
     {
@@ -36,6 +39,7 @@ public class ScMainMenu : MonoBehaviour
         StartTransition();
         yield return _transitionEnded;
         SceneManager.LoadScene(PlayerPrefs.GetString("Scene"));
+
     }
     private IEnumerator CoNewGame()
     {
