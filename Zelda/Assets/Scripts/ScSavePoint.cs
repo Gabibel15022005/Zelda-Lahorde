@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 public class ScSavePoint : MonoBehaviour
 {
     ScStartTransition _cameraScript;
+    [SerializeField] Transform _respawnPos;
     void Start() 
     {
         _cameraScript = Camera.main.GetComponent<ScStartTransition>();
@@ -12,7 +13,7 @@ public class ScSavePoint : MonoBehaviour
     {
         // save la pos du joueur
         // remettre la vie au max dans les PlayerPrefs
-        Vector3 pos = playerPos.position; 
+        Vector3 pos = _respawnPos.position; 
 
         PlayerPrefs.SetFloat("PlayerPosX", pos.x);
         PlayerPrefs.SetFloat("PlayerPosY", pos.y);

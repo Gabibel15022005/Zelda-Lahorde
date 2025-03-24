@@ -86,14 +86,12 @@ public class ScPlayerUseItem : MonoBehaviour
 
             case "Bombe":
                 Debug.Log(name);
-                // fonction de Bombe
-                SetIsUsingItem();
+                UseBomb();
             break;
 
             case "Magic Staff":
                 Debug.Log(name);
-                // fonction de Magic Staff
-                SetIsUsingItem();
+                UseMagicStaff();
             break;
 
             default:
@@ -103,6 +101,17 @@ public class ScPlayerUseItem : MonoBehaviour
         }
     }
 
+    private void UseBomb()
+    {
+        // instanciate une prefab de bombe et addforce devant le joueur (la direction ou il reguarde)
+        SetIsUsingItem();
+    }
+
+    private void UseMagicStaff()
+    {
+        // trouve un sort pour chaque staff
+        SetIsUsingItem();
+    }
     private void UseSword()
     {
         _player.CantMove(); // arrete le joueur avec cantmove
