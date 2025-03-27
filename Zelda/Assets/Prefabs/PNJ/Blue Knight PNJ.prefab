@@ -165,42 +165,40 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Dialogue:
-    Name:
-    - Asher
-    - ???
-    - Asher
-    - Hank
-    - Asher
-    - Asher
-    - Hank
-    - Hank
-    - Asher
-    - Hank
-    Face:
-    - {fileID: -2828118504230255338, guid: 968c7f0066d75d34c84e0e147d2daaba, type: 3}
-    - {fileID: -5521800850009236224, guid: 8e1b66621d21e634388181dfefbf7aa0, type: 3}
-    - {fileID: 1214326015543698646, guid: 968c7f0066d75d34c84e0e147d2daaba, type: 3}
-    - {fileID: -5521800850009236224, guid: 8e1b66621d21e634388181dfefbf7aa0, type: 3}
-    - {fileID: -2828118504230255338, guid: 968c7f0066d75d34c84e0e147d2daaba, type: 3}
-    - {fileID: 1214326015543698646, guid: 968c7f0066d75d34c84e0e147d2daaba, type: 3}
-    - {fileID: -5521800850009236224, guid: 8e1b66621d21e634388181dfefbf7aa0, type: 3}
-    - {fileID: -5521800850009236224, guid: 8e1b66621d21e634388181dfefbf7aa0, type: 3}
-    - {fileID: -2828118504230255338, guid: 968c7f0066d75d34c84e0e147d2daaba, type: 3}
-    - {fileID: -5521800850009236224, guid: 8e1b66621d21e634388181dfefbf7aa0, type: 3}
-    Sentence:
-    - Hello !
-    - Who are you ?
-    - I'm Asher , and you ?
-    - I'm Hank , nice to meet you i guess ?
-    - Yeah ! Nice to meet you !
-    - So Hank, can you help me get out of here ? I fell here while exploring but
-      i don't think i can just climb back up . . .
-    - Sorry, but I have been stuck here for a long time now and I never had the courage
-      of going deeper to find an exit .
-    - I saw many people fall here like you and me, I never saw any of them come back
-      but i never saw them die with my own eyes either so . . .  you could try it.
-    - Okay ! Thank you Hank ! I'll try my best !
-    - Yeah . . . Good luck .
+  - Name: Asher
+    Face: {fileID: -2828118504230255338, guid: 968c7f0066d75d34c84e0e147d2daaba, type: 3}
+    Sentence: Hello !
+  - Name: ???
+    Face: {fileID: -5521800850009236224, guid: 8e1b66621d21e634388181dfefbf7aa0, type: 3}
+    Sentence: Who are you ?
+  - Name: Asher
+    Face: {fileID: 1214326015543698646, guid: 968c7f0066d75d34c84e0e147d2daaba, type: 3}
+    Sentence: I'm Asher , and you ?
+  - Name: Hank
+    Face: {fileID: -5521800850009236224, guid: 8e1b66621d21e634388181dfefbf7aa0, type: 3}
+    Sentence: "I'm Hank . . . \nNice to meet you , i guess ?"
+  - Name: Asher
+    Face: {fileID: -2828118504230255338, guid: 968c7f0066d75d34c84e0e147d2daaba, type: 3}
+    Sentence: Yeah ! Nice to meet you !
+  - Name: Asher
+    Face: {fileID: 1214326015543698646, guid: 968c7f0066d75d34c84e0e147d2daaba, type: 3}
+    Sentence: So Hank, can you help me get out of here ? I fell here while exploring
+      but i don't think I can just climb back up . . .
+  - Name: Hank
+    Face: {fileID: -5521800850009236224, guid: 8e1b66621d21e634388181dfefbf7aa0, type: 3}
+    Sentence: Sorry but . . . I have been stuck here for a long time now and i never
+      had the courage of going deeper to find an exit . . .
+  - Name: Hank
+    Face: {fileID: -5521800850009236224, guid: 8e1b66621d21e634388181dfefbf7aa0, type: 3}
+    Sentence: I saw many people fall here like you and me , I never saw any of them
+      come back but I also never saw them die with my own eyes either so . . . you
+      could try it .
+  - Name: Asher
+    Face: {fileID: 1214326015543698646, guid: 968c7f0066d75d34c84e0e147d2daaba, type: 3}
+    Sentence: "Okay ! Thank you Hank ! \nI'll try my best !"
+  - Name: Hank
+    Face: {fileID: -5521800850009236224, guid: 8e1b66621d21e634388181dfefbf7aa0, type: 3}
+    Sentence: "Yeah . . . \nGood luck ."
 --- !u!212 &6748264401927818182
 SpriteRenderer:
   m_ObjectHideFlags: 0

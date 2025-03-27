@@ -3,6 +3,7 @@ using UnityEngine.InputSystem;
 
 public class ScPlayerMovement : MonoBehaviour
 {
+    [SerializeField] Transform _throwDirection;
     Animator _animator;
     ScPlayerStats _stats;
     Rigidbody2D _rb;
@@ -59,6 +60,10 @@ public class ScPlayerMovement : MonoBehaviour
             _moveInput = (rawInput.magnitude > _deadZone) ? rawInput : Vector2.zero;
 
         }
+        else
+        {
+            _moveInput = Vector2.zero;
+        }
     }
 
     public void OnRun(InputAction.CallbackContext context)
@@ -94,6 +99,7 @@ public class ScPlayerMovement : MonoBehaviour
             {
                 if (_moveInput.y > 0)
                 {
+                    _throwDirection.position = new Vector2(transform.position.x,transform.position.y + 1);
                     _isFacingUp = true;
                     _isFacingDown = false;
                     _isFacingRight = false;
@@ -101,6 +107,7 @@ public class ScPlayerMovement : MonoBehaviour
                 }
                 else
                 {
+                    _throwDirection.position = new Vector2(transform.position.x,transform.position.y - 1);
                     _isFacingUp = false;
                     _isFacingDown = true;
                     _isFacingRight = false;
@@ -111,6 +118,7 @@ public class ScPlayerMovement : MonoBehaviour
             {
                 if (_moveInput.x > 0)
                 {
+                    _throwDirection.position = new Vector2(transform.position.x + 1,transform.position.y);
                     _isFacingUp = false;
                     _isFacingDown = false;
                     _isFacingRight = true;
@@ -118,6 +126,7 @@ public class ScPlayerMovement : MonoBehaviour
                 }
                 else
                 {
+                    _throwDirection.position = new Vector2(transform.position.x - 1,transform.position.y);
                     _isFacingUp = false;
                     _isFacingDown = false;
                     _isFacingRight = false;

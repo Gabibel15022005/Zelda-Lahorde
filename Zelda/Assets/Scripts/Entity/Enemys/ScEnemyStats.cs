@@ -27,8 +27,6 @@ public class ScEnemyStats : ScStats
         _hp -= damage;
         if (_hp < 0) _hp = 0;
 
-        if (_hp <= 0) _collider2D.enabled = false;
-
         _animator.SetInteger("Hp",_hp);
         _animator.SetBool("TakeDamage",_takeDamage);
     }
@@ -42,6 +40,7 @@ public class ScEnemyStats : ScStats
 
     private void DropItem()
     {
+        _collider2D.enabled = false;
         if (_objPossible.Count > 0)
         {
             int index = Random.Range(0,_objPossible.Count);

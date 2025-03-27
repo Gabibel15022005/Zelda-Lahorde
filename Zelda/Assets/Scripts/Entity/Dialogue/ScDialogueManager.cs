@@ -9,9 +9,7 @@ public class ScDialogueManager : MonoBehaviour
 {
     ScCameraMoveTowards cam;
     ScPlayerMovement _player = null;
-    private Queue<string> _names;
-    private Queue<Sprite> _faces;
-    private Queue<string> _sentences;
+    private Queue<ScDialogue> _sentences;
 
     [SerializeField] private TMP_Text _textName;
     [SerializeField] private Image _imageFace;
@@ -24,15 +22,13 @@ public class ScDialogueManager : MonoBehaviour
 
     void Start()
     {
-        _names = new Queue<string>();
-        _faces = new Queue<Sprite>();
-        _sentences = new Queue<string>();
+        _sentences = new Queue<ScDialogue>();
 
         _animator = GetComponent<Animator>();
         cam = Camera.main.GetComponent<ScCameraMoveTowards>();
     }
 
-    public void StartDialogue(ScDialogue dialogue ,ScPlayerMovement player, Transform target)
+    public void StartDialogue(ScDialogue[] dialogue ,ScPlayerMovement player, Transform target)
     {
         if (_player == null) _player = player;
 
@@ -47,20 +43,12 @@ public class ScDialogueManager : MonoBehaviour
             _isAlreadyDialoging = true;
             _animator.SetBool("IsOpen",true);
             _sentences.Clear();
-            _faces.Clear();
-            _names.Clear();
-            foreach (string name in dialogue.Name)
-            {
-                _names.Enqueue(name);
-            }
-            foreach (Sprite face in dialogue.Face)
-            {
-                _faces.Enqueue(face);
-            }
-            foreach (string sentence in dialogue.Sentence)
+
+            foreach (ScDialogue sentence in dialogue)
             {
                 _sentences.Enqueue(sentence);
             }
+
             DisplayNextSentence();
         }
         else
@@ -77,20 +65,20 @@ public class ScDialogueManager : MonoBehaviour
             return;
         }
 
-        _textName.text = _names.Dequeue();
-        _imageFace.sprite = _faces.Dequeue();
-        string sentence = _sentences.Dequeue();
+        ScDialogue sentence = _sentences.Dequeue();
 
+        _textName.text = sentence.Name;
+        _imageFace.sprite = sentence.Face;
         StopAllCoroutines();
         StartCoroutine(TypeSentence(sentence));
         
     }
 
-    IEnumerator TypeSentence(string sentence)
+    IEnumerator TypeSentence(ScDialogue sentence)
     {
         _textSentence.text = "";
 
-        foreach (char letter in sentence.ToCharArray())
+        foreach (char letter in sentence.Sentence.ToCharArray())
         {
             _textSentence.text += letter;
             yield return new WaitForSeconds(_delayBetweenLetter);

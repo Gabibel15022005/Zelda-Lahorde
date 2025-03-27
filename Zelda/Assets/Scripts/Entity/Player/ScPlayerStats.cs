@@ -1,9 +1,11 @@
 using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.InputSystem;
 
 public class ScPlayerStats : ScStats
 {
+    Gamepad gamepad;
     Animator _animator;
     Rigidbody2D _rb;
     ScPlayerUseItem _playerUseItem;
@@ -13,6 +15,7 @@ public class ScPlayerStats : ScStats
 
     override public void Start()
     {
+        gamepad = Gamepad.current;
         _animator = GetComponent<Animator>();
         _rb = GetComponent<Rigidbody2D>();
 
@@ -42,6 +45,9 @@ public class ScPlayerStats : ScStats
         _hp -= damage;
         if (_hp < 0) _hp = 0;
 
+        if (gamepad != null && _hp != 0)
+        gamepad.SetMotorSpeeds(1,1);
+
         _uiManager.UpdateHp(_hp);
     }
 
@@ -65,6 +71,9 @@ public class ScPlayerStats : ScStats
     }
     public void IsntTakingDamage()
     {
+        if (gamepad != null)
+        gamepad.SetMotorSpeeds(0,0);
+
         _isTakingDamage = false;
         _animator.SetBool("IsTakingDamage", _isTakingDamage);
         _playerUseItem.CanUseItem();

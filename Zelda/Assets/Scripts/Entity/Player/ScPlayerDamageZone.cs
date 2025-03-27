@@ -17,5 +17,10 @@ public class ScPlayerDamageZone : MonoBehaviour
         {
             collision.gameObject.GetComponent<ScDestroyable>().TakeDamage(1);
         }
+
+        if (collision.gameObject.CompareTag("ActivableByPlayer"))
+        {
+            collision.gameObject.GetComponent<ScActivable>().Activate();
+        }
     }
 }

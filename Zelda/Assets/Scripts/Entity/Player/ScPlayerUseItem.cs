@@ -11,6 +11,11 @@ public class ScPlayerUseItem : MonoBehaviour
     private bool _isAttacking = false;
     private int _combo = 0;
     private bool _canUseItem = true;
+
+    [Header("Bombe")]
+    [SerializeField] Transform _throwDirection;
+    [SerializeField] GameObject _bombe;
+    [SerializeField] float _throwPower = 20;
     void Start()
     {
         _player = GetComponent<ScPlayerMovement>();
@@ -103,7 +108,13 @@ public class ScPlayerUseItem : MonoBehaviour
 
     private void UseBomb()
     {
-        // instanciate une prefab de bombe et addforce devant le joueur (la direction ou il reguarde)
+        Vector3 direction = _throwDirection.position - transform.position;
+
+        GameObject bombe = Instantiate(_bombe,_throwDirection.position, Quaternion.identity);
+        Rigidbody2D rb = bombe.GetComponent<Rigidbody2D>();
+
+        rb.AddForce(direction.normalized * _throwPower, ForceMode2D.Impulse);
+
         SetIsUsingItem();
     }
 

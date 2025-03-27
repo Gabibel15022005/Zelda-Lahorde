@@ -5,9 +5,9 @@ using UnityEngine;
 [System.Serializable]
 public class ScDialogue
 {
-    public string[] Name;
-    public Sprite[] Face;
+    public string Name;
+    public Sprite Face;
 
     [TextArea(3,10)]
-    public string[] Sentence;
+    public string Sentence;
 }
