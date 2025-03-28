@@ -11,14 +11,16 @@ public class ScPlayerStats : ScStats
     ScPlayerMovement _playerMovement;
     private bool _isTakingDamage = false;
     ScInGameUI _uiManager;
-
+    ScStartTransition _cameraScript;
     override public void Start()
     {
         gamepad = Gamepad.current;
+
         _animator = GetComponent<Animator>();
         _rb = GetComponent<Rigidbody2D>();
 
-        _uiManager =Camera.main.GetComponent<ScInGameUI>();
+        _cameraScript = Camera.main.GetComponent<ScStartTransition>();
+        _uiManager = Camera.main.GetComponent<ScInGameUI>();
 
         _playerUseItem = GetComponent<ScPlayerUseItem>();
         _playerMovement = GetComponent<ScPlayerMovement>();
@@ -81,9 +83,6 @@ public class ScPlayerStats : ScStats
 
     public void OnDeath() // a appeler a la fin de l'anim de mort
     {
-        // faire la transition a l'écran noir 
-        // reload la scene a la fin
-
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        _cameraScript.StartTransition(SceneManager.GetActiveScene().name);
     }
 }
