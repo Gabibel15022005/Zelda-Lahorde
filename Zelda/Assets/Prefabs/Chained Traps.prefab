@@ -1,0 +1,1699 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7745057510463146897
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7196679848757144844}
+  - component: {fileID: 8027890041967388938}
+  m_Layer: 0
+  m_Name: Chained Traps
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7196679848757144844
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7745057510463146897}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1809785652393376018}
+  - {fileID: 2297755513395313294}
+  - {fileID: 4018252944715542278}
+  - {fileID: 1849899034194776361}
+  - {fileID: 2194810541440678238}
+  - {fileID: 1207653666350452402}
+  - {fileID: 2846684137056097026}
+  - {fileID: 911134142219500434}
+  - {fileID: 158641198070156565}
+  - {fileID: 991626095564145641}
+  - {fileID: 7055706009024572080}
+  - {fileID: 9121124368991831103}
+  - {fileID: 8973923875748396533}
+  - {fileID: 3123908353979732662}
+  - {fileID: 1200912447431941169}
+  - {fileID: 392792271545377089}
+  - {fileID: 4857380610330357859}
+  - {fileID: 10317822145567403}
+  - {fileID: 5238394500556718288}
+  - {fileID: 381742940422472488}
+  - {fileID: 4372336277283129518}
+  - {fileID: 3847454757246149814}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8027890041967388938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7745057510463146897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffb6eb00ad4b19345ae839950a6bd035, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _traps:
+  - {fileID: 5239024244831103861}
+  - {fileID: 5641359736307656937}
+  - {fileID: 7379945677133954401}
+  - {fileID: 5189641984336511822}
+  - {fileID: 5754736323857148729}
+  - {fileID: 4713883567658376405}
+  - {fileID: 8514075568321823077}
+  - {fileID: 6705183720966023669}
+  - {fileID: 6024406629165211506}
+  - {fileID: 6659574886354882958}
+  - {fileID: 3477765753463109847}
+  - {fileID: 3404115439968228952}
+  - {fileID: 3251790818544021394}
+  - {fileID: 8859491573977972945}
+  - {fileID: 4684615796907232854}
+  - {fileID: 6114231056136368934}
+  - {fileID: 1351510143569502724}
+  - {fileID: 5876580397575817420}
+  - {fileID: 1809288947157390007}
+  - {fileID: 6117400757562331471}
+  - {fileID: 7855630222154242761}
+  - {fileID: 7263603657581229777}
+  _delayBeetweenTraps: 0.2
+  IsFast: 1
+--- !u!1001 &266682025527122825
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7196679848757144844}
+    m_Modifications:
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.040001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -23.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0015677996
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119438518128404914, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_Name
+      value: Deadly Traps (20)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 523eb659491919044a363500f6b64985, type: 3}
+--- !u!4 &4372336277283129518 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+  m_PrefabInstance: {fileID: 266682025527122825}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7855630222154242761 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7978056316546777408, guid: 523eb659491919044a363500f6b64985, type: 3}
+  m_PrefabInstance: {fileID: 266682025527122825}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df76b58db9b71714e8f5b0e55cd634c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &638783877773179937
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7196679848757144844}
+    m_Modifications:
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.040001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -21.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0015677996
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119438518128404914, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_Name
+      value: Deadly Traps (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 523eb659491919044a363500f6b64985, type: 3}
+--- !u!4 &4018252944715542278 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+  m_PrefabInstance: {fileID: 638783877773179937}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7379945677133954401 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7978056316546777408, guid: 523eb659491919044a363500f6b64985, type: 3}
+  m_PrefabInstance: {fileID: 638783877773179937}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df76b58db9b71714e8f5b0e55cd634c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &754985129365895057
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7196679848757144844}
+    m_Modifications:
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.040001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -22.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0015677996
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119438518128404914, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_Name
+      value: Deadly Traps (21)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 523eb659491919044a363500f6b64985, type: 3}
+--- !u!4 &3847454757246149814 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+  m_PrefabInstance: {fileID: 754985129365895057}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7263603657581229777 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7978056316546777408, guid: 523eb659491919044a363500f6b64985, type: 3}
+  m_PrefabInstance: {fileID: 754985129365895057}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df76b58db9b71714e8f5b0e55cd634c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &1460436588127519121
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7196679848757144844}
+    m_Modifications:
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 11.040001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -24.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0015677996
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119438518128404914, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_Name
+      value: Deadly Traps (13)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 523eb659491919044a363500f6b64985, type: 3}
+--- !u!4 &3123908353979732662 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+  m_PrefabInstance: {fileID: 1460436588127519121}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8859491573977972945 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7978056316546777408, guid: 523eb659491919044a363500f6b64985, type: 3}
+  m_PrefabInstance: {fileID: 1460436588127519121}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df76b58db9b71714e8f5b0e55cd634c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &1774327466055335973
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7196679848757144844}
+    m_Modifications:
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 11.040001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -21.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0015677996
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119438518128404914, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_Name
+      value: Deadly Traps (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 523eb659491919044a363500f6b64985, type: 3}
+--- !u!4 &2846684137056097026 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+  m_PrefabInstance: {fileID: 1774327466055335973}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8514075568321823077 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7978056316546777408, guid: 523eb659491919044a363500f6b64985, type: 3}
+  m_PrefabInstance: {fileID: 1774327466055335973}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df76b58db9b71714e8f5b0e55cd634c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &2377229047351093673
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7196679848757144844}
+    m_Modifications:
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.040001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -21.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0015677996
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119438518128404914, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_Name
+      value: Deadly Traps (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 523eb659491919044a363500f6b64985, type: 3}
+--- !u!4 &2297755513395313294 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+  m_PrefabInstance: {fileID: 2377229047351093673}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5641359736307656937 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7978056316546777408, guid: 523eb659491919044a363500f6b64985, type: 3}
+  m_PrefabInstance: {fileID: 2377229047351093673}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df76b58db9b71714e8f5b0e55cd634c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &2408108315639802489
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7196679848757144844}
+    m_Modifications:
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.040001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -21.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0015677996
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119438518128404914, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_Name
+      value: Deadly Traps (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 523eb659491919044a363500f6b64985, type: 3}
+--- !u!4 &2194810541440678238 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+  m_PrefabInstance: {fileID: 2408108315639802489}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5754736323857148729 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7978056316546777408, guid: 523eb659491919044a363500f6b64985, type: 3}
+  m_PrefabInstance: {fileID: 2408108315639802489}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df76b58db9b71714e8f5b0e55cd634c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &2739172877990636085
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7196679848757144844}
+    m_Modifications:
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -21.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0015677996
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119438518128404914, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_Name
+      value: Deadly Traps
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 523eb659491919044a363500f6b64985, type: 3}
+--- !u!4 &1809785652393376018 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+  m_PrefabInstance: {fileID: 2739172877990636085}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5239024244831103861 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7978056316546777408, guid: 523eb659491919044a363500f6b64985, type: 3}
+  m_PrefabInstance: {fileID: 2739172877990636085}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df76b58db9b71714e8f5b0e55cd634c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &2788555074060796430
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7196679848757144844}
+    m_Modifications:
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.040001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -21.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0015677996
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119438518128404914, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_Name
+      value: Deadly Traps (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 523eb659491919044a363500f6b64985, type: 3}
+--- !u!4 &1849899034194776361 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+  m_PrefabInstance: {fileID: 2788555074060796430}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5189641984336511822 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7978056316546777408, guid: 523eb659491919044a363500f6b64985, type: 3}
+  m_PrefabInstance: {fileID: 2788555074060796430}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df76b58db9b71714e8f5b0e55cd634c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &3437555810862092054
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7196679848757144844}
+    m_Modifications:
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.040001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -24.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0015677996
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119438518128404914, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_Name
+      value: Deadly Traps (14)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 523eb659491919044a363500f6b64985, type: 3}
+--- !u!4 &1200912447431941169 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+  m_PrefabInstance: {fileID: 3437555810862092054}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4684615796907232854 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7978056316546777408, guid: 523eb659491919044a363500f6b64985, type: 3}
+  m_PrefabInstance: {fileID: 3437555810862092054}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df76b58db9b71714e8f5b0e55cd634c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &3448820334751456661
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7196679848757144844}
+    m_Modifications:
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.040001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -21.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0015677996
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119438518128404914, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_Name
+      value: Deadly Traps (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 523eb659491919044a363500f6b64985, type: 3}
+--- !u!4 &1207653666350452402 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+  m_PrefabInstance: {fileID: 3448820334751456661}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4713883567658376405 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7978056316546777408, guid: 523eb659491919044a363500f6b64985, type: 3}
+  m_PrefabInstance: {fileID: 3448820334751456661}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df76b58db9b71714e8f5b0e55cd634c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &3664856836053307598
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7196679848757144844}
+    m_Modifications:
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13.040001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -22.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0015677996
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119438518128404914, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_Name
+      value: Deadly Traps (9)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 523eb659491919044a363500f6b64985, type: 3}
+--- !u!4 &991626095564145641 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+  m_PrefabInstance: {fileID: 3664856836053307598}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6659574886354882958 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7978056316546777408, guid: 523eb659491919044a363500f6b64985, type: 3}
+  m_PrefabInstance: {fileID: 3664856836053307598}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df76b58db9b71714e8f5b0e55cd634c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &3727334397334808757
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7196679848757144844}
+    m_Modifications:
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 12.040001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -21.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0015677996
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119438518128404914, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_Name
+      value: Deadly Traps (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 523eb659491919044a363500f6b64985, type: 3}
+--- !u!4 &911134142219500434 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+  m_PrefabInstance: {fileID: 3727334397334808757}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6705183720966023669 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7978056316546777408, guid: 523eb659491919044a363500f6b64985, type: 3}
+  m_PrefabInstance: {fileID: 3727334397334808757}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df76b58db9b71714e8f5b0e55cd634c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &4202668107742859279
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7196679848757144844}
+    m_Modifications:
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.040001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -24.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0015677996
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119438518128404914, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_Name
+      value: Deadly Traps (19)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 523eb659491919044a363500f6b64985, type: 3}
+--- !u!4 &381742940422472488 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+  m_PrefabInstance: {fileID: 4202668107742859279}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6117400757562331471 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7978056316546777408, guid: 523eb659491919044a363500f6b64985, type: 3}
+  m_PrefabInstance: {fileID: 4202668107742859279}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df76b58db9b71714e8f5b0e55cd634c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &4210200668087939686
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7196679848757144844}
+    m_Modifications:
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.040001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -24.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0015677996
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119438518128404914, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_Name
+      value: Deadly Traps (15)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 523eb659491919044a363500f6b64985, type: 3}
+--- !u!4 &392792271545377089 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+  m_PrefabInstance: {fileID: 4210200668087939686}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6114231056136368934 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7978056316546777408, guid: 523eb659491919044a363500f6b64985, type: 3}
+  m_PrefabInstance: {fileID: 4210200668087939686}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df76b58db9b71714e8f5b0e55cd634c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &4408252291047726642
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7196679848757144844}
+    m_Modifications:
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13.040001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -21.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0015677996
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119438518128404914, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_Name
+      value: Deadly Traps (8)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 523eb659491919044a363500f6b64985, type: 3}
+--- !u!4 &158641198070156565 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+  m_PrefabInstance: {fileID: 4408252291047726642}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6024406629165211506 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7978056316546777408, guid: 523eb659491919044a363500f6b64985, type: 3}
+  m_PrefabInstance: {fileID: 4408252291047726642}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df76b58db9b71714e8f5b0e55cd634c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &4556078558133537164
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7196679848757144844}
+    m_Modifications:
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.040001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -24.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0015677996
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119438518128404914, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_Name
+      value: Deadly Traps (17)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 523eb659491919044a363500f6b64985, type: 3}
+--- !u!4 &10317822145567403 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+  m_PrefabInstance: {fileID: 4556078558133537164}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5876580397575817420 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7978056316546777408, guid: 523eb659491919044a363500f6b64985, type: 3}
+  m_PrefabInstance: {fileID: 4556078558133537164}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df76b58db9b71714e8f5b0e55cd634c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &4722700442175248152
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7196679848757144844}
+    m_Modifications:
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13.040001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -24.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0015677996
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119438518128404914, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_Name
+      value: Deadly Traps (11)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 523eb659491919044a363500f6b64985, type: 3}
+--- !u!114 &3404115439968228952 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7978056316546777408, guid: 523eb659491919044a363500f6b64985, type: 3}
+  m_PrefabInstance: {fileID: 4722700442175248152}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df76b58db9b71714e8f5b0e55cd634c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &9121124368991831103 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+  m_PrefabInstance: {fileID: 4722700442175248152}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4870380720643927762
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7196679848757144844}
+    m_Modifications:
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 12.040001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -24.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0015677996
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119438518128404914, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_Name
+      value: Deadly Traps (12)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 523eb659491919044a363500f6b64985, type: 3}
+--- !u!114 &3251790818544021394 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7978056316546777408, guid: 523eb659491919044a363500f6b64985, type: 3}
+  m_PrefabInstance: {fileID: 4870380720643927762}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df76b58db9b71714e8f5b0e55cd634c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &8973923875748396533 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+  m_PrefabInstance: {fileID: 4870380720643927762}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6842162408580643223
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7196679848757144844}
+    m_Modifications:
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13.040001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -23.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0015677996
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119438518128404914, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_Name
+      value: Deadly Traps (10)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 523eb659491919044a363500f6b64985, type: 3}
+--- !u!114 &3477765753463109847 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7978056316546777408, guid: 523eb659491919044a363500f6b64985, type: 3}
+  m_PrefabInstance: {fileID: 6842162408580643223}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df76b58db9b71714e8f5b0e55cd634c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &7055706009024572080 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+  m_PrefabInstance: {fileID: 6842162408580643223}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8623369938893951991
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7196679848757144844}
+    m_Modifications:
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.040001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -24.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0015677996
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119438518128404914, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_Name
+      value: Deadly Traps (18)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 523eb659491919044a363500f6b64985, type: 3}
+--- !u!114 &1809288947157390007 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7978056316546777408, guid: 523eb659491919044a363500f6b64985, type: 3}
+  m_PrefabInstance: {fileID: 8623369938893951991}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df76b58db9b71714e8f5b0e55cd634c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &5238394500556718288 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+  m_PrefabInstance: {fileID: 8623369938893951991}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8968417984579707716
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7196679848757144844}
+    m_Modifications:
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.040001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -24.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0015677996
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119438518128404914, guid: 523eb659491919044a363500f6b64985, type: 3}
+      propertyPath: m_Name
+      value: Deadly Traps (16)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 523eb659491919044a363500f6b64985, type: 3}
+--- !u!114 &1351510143569502724 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7978056316546777408, guid: 523eb659491919044a363500f6b64985, type: 3}
+  m_PrefabInstance: {fileID: 8968417984579707716}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df76b58db9b71714e8f5b0e55cd634c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &4857380610330357859 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4548311603015406375, guid: 523eb659491919044a363500f6b64985, type: 3}
+  m_PrefabInstance: {fileID: 8968417984579707716}
+  m_PrefabAsset: {fileID: 0}
