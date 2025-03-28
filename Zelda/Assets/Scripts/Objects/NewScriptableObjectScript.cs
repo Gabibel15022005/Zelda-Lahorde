@@ -1,5 +1,3 @@
-using System;
-using UnityEditor.Animations;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "NewScriptableObjectScript", menuName = "Scriptable Objects/NewScriptableObjectScript")]

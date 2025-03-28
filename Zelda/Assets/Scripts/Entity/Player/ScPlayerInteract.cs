@@ -10,6 +10,7 @@ public class ScPlayerInteract : MonoBehaviour
     [SerializeField] LayerMask _itemLayerMask;
     [SerializeField] LayerMask _PNJLayerMask;
     [SerializeField] LayerMask _savePointLayerMask;
+    [SerializeField] LayerMask _chestLayerMask;
     private bool _isInteracting = false;
     private bool _canInteract = true;
     private bool _isCalledOnce = false;
@@ -34,6 +35,7 @@ public class ScPlayerInteract : MonoBehaviour
         Collider2D[] savePointCheck = Physics2D.OverlapCircleAll(transform.position, _size, _savePointLayerMask);
         Collider2D[] itemCheck = Physics2D.OverlapCircleAll(transform.position, _size, _itemLayerMask);
         Collider2D[] PNJCheck = Physics2D.OverlapCircleAll(transform.position, _size, _PNJLayerMask);
+        Collider2D[] chestCheck = Physics2D.OverlapCircleAll(transform.position, _size, _chestLayerMask);
 
         if (savePointCheck.Length > 0 && _isInteracting && _canInteract)
         {
@@ -49,10 +51,10 @@ public class ScPlayerInteract : MonoBehaviour
         {
             _canInteract = false;
             ScItemToTake item = itemCheck[0].GetComponent<ScItemToTake>();
+            item.GetComponent<ScShowInteraction>().DestroyCanva();
             NewScriptableObjectScript obj = item.GetObject();
 
             Debug.Log($"Interact with {item}");
-
             if (PlayerPrefs.HasKey(obj.name))
             {
                 Debug.Log($"Does have : {obj.name} in PlayerPrefs");
@@ -85,6 +87,8 @@ public class ScPlayerInteract : MonoBehaviour
             item.transform.SetParent(_posObjInteract); // place le à la bonne position
             item.GetSprite().sortingOrder = 30; // met le sprite devant tout
             item.transform.position = _posObjInteract.position; // place le au centre
+
+            return;
         }
 
         if (PNJCheck.Length > 0 && _isInteracting && !_isCalledOnce)
@@ -92,6 +96,12 @@ public class ScPlayerInteract : MonoBehaviour
             _isCalledOnce = true;
             Debug.Log("Call TriggerDialogue()");
             PNJCheck[0].GetComponent<ScPNJ>().TriggerDialogue(movement);
+        }
+
+        if (chestCheck.Length > 0 && _isInteracting && _canInteract)
+        {
+            chestCheck[0].GetComponent<ScChest>().OpenChest();
+            return;
         }
     }
     public void DestroyObjectAfterAnimation()

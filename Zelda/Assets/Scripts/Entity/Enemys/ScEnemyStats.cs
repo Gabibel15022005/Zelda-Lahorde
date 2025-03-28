@@ -25,7 +25,7 @@ public class ScEnemyStats : ScStats
         _takeDamage = true;
 
         _hp -= damage;
-        if (_hp < 0) _hp = 0;
+        if (_hp < 0) IsDead();
 
         _animator.SetInteger("Hp",_hp);
         _animator.SetBool("TakeDamage",_takeDamage);
@@ -36,6 +36,20 @@ public class ScEnemyStats : ScStats
         Vector3 direction = transform.position - damagePos.position;
 
         _rb.AddForce(direction.normalized * power , ForceMode2D.Impulse);
+    }
+
+    public void IsDead()
+    {
+        _hp = 0;
+        _animator.SetInteger("Hp",_hp);
+
+        if (transform.parent != null)
+        {
+            if (transform.parent.TryGetComponent(out ScEnemySpawnerManager spawnerManager))
+            {
+                spawnerManager.RemoveFromEnemyCount();
+            }
+        }
     }
 
     private void DropItem()

@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ScLevier : ScActivable
 {
@@ -7,7 +8,13 @@ public class ScLevier : ScActivable
 
     void Start()
     {
-        // check player pref pour l'état de la porte
+        if (PlayerPrefs.HasKey($"{transform.parent.name}InScene({SceneManager.GetActiveScene().name})"))
+        {
+            if (PlayerPrefs.GetInt($"{transform.parent.name}InScene({SceneManager.GetActiveScene().name})") == 1)
+            {
+                Activate(); // porte ouverte
+            }
+        }
     }
     public override void Activate()
     {
@@ -19,6 +26,7 @@ public class ScLevier : ScActivable
     {
         if (_isActivate)
         {
+            PlayerPrefs.SetInt($"{transform.parent.name}InScene({SceneManager.GetActiveScene().name})",1);
             foreach (ScDoor door in _doors)
             {
                 door.OpenDoor();
@@ -26,11 +34,14 @@ public class ScLevier : ScActivable
         }
         else 
         {
+            PlayerPrefs.SetInt($"{transform.parent.name}InScene({SceneManager.GetActiveScene().name})",0);
             foreach (ScDoor door in _doors)
             {
                 door.CloseDoor();
             }
         }
+        
+        PlayerPrefs.Save();
     }
 
 

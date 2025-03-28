@@ -13,6 +13,8 @@ public class ScShowInteraction : MonoBehaviour
 
     void CheckIfPlayerInRange()
     {
+        if (_animator == null) return;
+
         Collider2D[] playerCollider = Physics2D.OverlapCircleAll(transform.position, _size, _playerLayerMask);
 
         if (playerCollider.Length > 0)
@@ -29,5 +31,10 @@ public class ScShowInteraction : MonoBehaviour
     {
         Gizmos.color = Color.green;
         Gizmos.DrawWireSphere(transform.position, _size);
+    }
+
+    public void DestroyCanva()
+    {
+        Destroy(_animator.gameObject);
     }
 }

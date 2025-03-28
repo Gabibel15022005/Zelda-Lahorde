@@ -2,12 +2,7 @@ using UnityEngine;
 
 public class ScDoor : MonoBehaviour
 {
-    Animator _animator;
-    void Start() 
-    {
-        _animator = GetComponent<Animator>();
-    }
-
+    [SerializeField] Animator _animator;
     public void OpenDoor()
     {
         _animator.Play("OpenDoor");
