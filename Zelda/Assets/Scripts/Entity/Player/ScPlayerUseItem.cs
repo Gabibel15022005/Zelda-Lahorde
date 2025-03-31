@@ -11,11 +11,19 @@ public class ScPlayerUseItem : MonoBehaviour
     private bool _isAttacking = false;
     private int _combo = 0;
     private bool _canUseItem = true;
+    bool _canBeUsed = true;
 
     [Header("Bombe")]
     [SerializeField] Transform _throwDirection;
     [SerializeField] GameObject _bombe;
     [SerializeField] float _throwPower = 20;
+
+    [Space(20)]
+
+    [Header("Keys")]
+    [SerializeField] float _size = 1f;
+    [SerializeField] LayerMask _cadnaLayerMask;
+
     void Start()
     {
         _player = GetComponent<ScPlayerMovement>();
@@ -60,11 +68,12 @@ public class ScPlayerUseItem : MonoBehaviour
     {
         _canUseItem = false;
     }
-
     private void UseItem(string name)
     {
         if (name == "") return;
         if (!_canUseItem) return;
+
+        _canBeUsed = true;
 
         SetIsUsingItem();
 
@@ -74,12 +83,6 @@ public class ScPlayerUseItem : MonoBehaviour
             PlayerPrefs.Save();
             SetIsUsingItem();
             return;
-        }
-        if (PlayerPrefs.GetInt($"{name}IsConsommable") == 1) // si consommable 
-        {
-            PlayerPrefs.SetInt($"{name}Qt",PlayerPrefs.GetInt($"{name}Qt") - 1);
-            
-            _inventoryManager.UpdateToolBarItems();
         }
 
         switch (name)
@@ -99,11 +102,24 @@ public class ScPlayerUseItem : MonoBehaviour
                 UseMagicStaff();
             break;
 
+            case "Pink Key":
+                Debug.Log(name);
+                UsePinkKey();
+            break;
+
             default:
                 Debug.Log("The item name is not in the list of behaviour");
                 SetIsUsingItem();
             break;
         }
+
+        if (PlayerPrefs.GetInt($"{name}IsConsommable") == 1 && _canBeUsed) // si consommable 
+        {
+            PlayerPrefs.SetInt($"{name}Qt",PlayerPrefs.GetInt($"{name}Qt") - 1);
+            
+            _inventoryManager.UpdateToolBarItems();
+        }
+
     }
 
     private void UseBomb()
@@ -118,6 +134,24 @@ public class ScPlayerUseItem : MonoBehaviour
         SetIsUsingItem();
     }
 
+    private void UsePinkKey()
+    {
+        // check around 
+        Collider2D[] checkCadna = Physics2D.OverlapCircleAll(transform.position, _size, _cadnaLayerMask);
+
+        // if cadna a porté et bonne couleur
+        if (checkCadna.Length > 0 )
+        {
+            Debug.Log("UseKey");
+            checkCadna[0].GetComponent<ScCadna>().Unlock();
+        }
+        else
+        {
+            _canBeUsed = false;
+        }
+
+        SetIsUsingItem();
+    }
     private void UseMagicStaff()
     {
         // trouve un sort pour chaque staff
@@ -144,4 +178,11 @@ public class ScPlayerUseItem : MonoBehaviour
     {
         _isUsingItem = !_isUsingItem;
     }
+
+    void OnDrawGizmos()
+    {
+        Gizmos.color = Color.black;
+        Gizmos.DrawWireSphere(transform.position,_size);
+    }
+
 }

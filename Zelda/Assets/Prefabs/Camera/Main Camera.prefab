@@ -6240,7 +6240,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 656.2, y: 166.20001}
+  m_SizeDelta: {x: 473.2239, y: 166.2}
   m_Pivot: {x: 1, y: 0}
 --- !u!222 &1802533605073824554
 CanvasRenderer:
@@ -6297,8 +6297,8 @@ MonoBehaviour:
     m_Right: 50
     m_Top: 0
     m_Bottom: 0
-  m_ChildAlignment: 5
-  m_StartCorner: 1
+  m_ChildAlignment: 3
+  m_StartCorner: 0
   m_StartAxis: 0
   m_CellSize: {x: 100, y: 100}
   m_Spacing: {x: 50, y: 0}
@@ -8986,6 +8986,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 0b2d4aa31f08d3c44b85d54b3437d6e7, type: 2}
   - {fileID: 11400000, guid: 134a8c0ca13a18d4c800d443ac09cd49, type: 2}
   - {fileID: 11400000, guid: 4489d0649328db74b98bdaa704f796ef, type: 2}
+  - {fileID: 11400000, guid: 3c9a840a149830e429cfcfe1b5562bd2, type: 2}
   ToolBarItems:
   - {fileID: 2036537710795393047}
   - {fileID: 4799311713118126027}

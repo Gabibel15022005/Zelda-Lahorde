@@ -51,6 +51,12 @@ public class ScPlayerInteract : MonoBehaviour
         {
             _canInteract = false;
             ScItemToTake item = itemCheck[0].GetComponent<ScItemToTake>();
+
+            if (item.TryGetComponent(out ScCheckIfAlreadyTaken check))
+            {
+                check.HasBeenTaken();
+            }
+
             item.GetComponent<ScShowInteraction>().DestroyCanva();
             NewScriptableObjectScript obj = item.GetObject();
 

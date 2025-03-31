@@ -246,6 +246,10 @@ MonoBehaviour:
   _throwDirection: {fileID: 704883729177698301}
   _bombe: {fileID: 7501351736344928665, guid: edf6d6c656e5ba043a6e19a80ef13804, type: 3}
   _throwPower: 10
+  _size: 1
+  _cadnaLayerMask:
+    serializedVersion: 2
+    m_Bits: 4096
 --- !u!114 &4954395131607201516
 MonoBehaviour:
   m_ObjectHideFlags: 0

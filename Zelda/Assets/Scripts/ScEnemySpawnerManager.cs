@@ -1,10 +1,12 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class ScEnemySpawnerManager : MonoBehaviour
 {
-    [SerializeField] ScEnemySpawner[] _spawners; 
+    [SerializeField] List<ScEnemySpawner[]> _spawners; 
     ScBattleZone _zone;
     private int _nb = 0;
+    private int _index = 0;
     void Start() 
     {
         _zone = GetComponent<ScBattleZone>();
@@ -12,7 +14,7 @@ public class ScEnemySpawnerManager : MonoBehaviour
     public void SpawnEnemies()
     {
         _nb = 0;
-        foreach (ScEnemySpawner spawner in _spawners)
+        foreach (ScEnemySpawner spawner in _spawners[_index])
         {
             if (spawner.Enemy.TryGetComponent(out ScEnemyStats stats))
             {
@@ -31,9 +33,14 @@ public class ScEnemySpawnerManager : MonoBehaviour
     {
         _nb--;
 
-        if (_nb <= 0) 
+        if (_nb <= 0 && _spawners.Count > _index) 
         {
             _zone.EndOfTheFight();
+        }
+        else
+        {
+            SpawnEnemies();
+            _index++;
         }
     }
 
