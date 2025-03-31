@@ -1,9 +1,10 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class ScEnemySpawnerManager : MonoBehaviour
 {
-    [SerializeField] List<ScEnemySpawner[]> _spawners; 
+    [SerializeField] List<ScListeVagues> _spawners; 
     ScBattleZone _zone;
     private int _nb = 0;
     private int _index = 0;
@@ -13,8 +14,10 @@ public class ScEnemySpawnerManager : MonoBehaviour
     }
     public void SpawnEnemies()
     {
+        Debug.Log($"{_index + 1} / {_spawners.Count}");
+
         _nb = 0;
-        foreach (ScEnemySpawner spawner in _spawners[_index])
+        foreach (ScEnemySpawner spawner in _spawners[_index].Spawner)
         {
             if (spawner.Enemy.TryGetComponent(out ScEnemyStats stats))
             {
@@ -32,16 +35,30 @@ public class ScEnemySpawnerManager : MonoBehaviour
     public void RemoveFromEnemyCount()
     {
         _nb--;
+        Debug.Log($"nb = {_nb}");
 
-        if (_nb <= 0 && _spawners.Count > _index) 
+        if (_nb <= 0) 
         {
-            _zone.EndOfTheFight();
-        }
-        else
-        {
-            SpawnEnemies();
             _index++;
+            Debug.Log($"nb = {_nb}");
+        }
+
+        if (_nb <= 0 &&  _index < _spawners.Count)
+        {
+            StartCoroutine(Spawn());
+        }
+        else if (_nb <= 0) 
+        {
+            _nb = 0;
+            Debug.Log("End Of The Fight !");
+            _zone.EndOfTheFight();
         }
     }
 
+    IEnumerator Spawn()
+    {
+        yield return new WaitForSeconds(1);
+        _nb = 0;
+        SpawnEnemies();
+    }
 }

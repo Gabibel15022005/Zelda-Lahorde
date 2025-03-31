@@ -60,15 +60,15 @@ public class ScPlayerInteract : MonoBehaviour
             item.GetComponent<ScShowInteraction>().DestroyCanva();
             NewScriptableObjectScript obj = item.GetObject();
 
-            Debug.Log($"Interact with {item}");
+            //Debug.Log($"Interact with {item}");
             if (PlayerPrefs.HasKey(obj.name))
             {
-                Debug.Log($"Does have : {obj.name} in PlayerPrefs");
+                //Debug.Log($"Does have : {obj.name} in PlayerPrefs");
                 PlayerPrefs.SetInt($"{obj.name}Qt", PlayerPrefs.GetInt($"{obj.name}Qt") + item.GetQuantity());
             }
             else
             {   
-                Debug.Log($"Doesn't have : {obj.name} in PlayerPrefs");
+                //Debug.Log($"Doesn't have : {obj.name} in PlayerPrefs");
                 PlayerPrefs.SetString(obj.name, obj.name);  // sauvegarde le nom de l'item
                 PlayerPrefs.SetInt($"{obj.name}Qt", 1);         // sauvegarde la quantité de l'item
 
@@ -109,6 +109,7 @@ public class ScPlayerInteract : MonoBehaviour
             chestCheck[0].GetComponent<ScChest>().OpenChest();
             return;
         }
+
     }
     public void DestroyObjectAfterAnimation()
     {
@@ -141,5 +142,11 @@ public class ScPlayerInteract : MonoBehaviour
     {
         _isInteractingAnim = !_isInteractingAnim;
         _animator.SetBool("IsInteracting",_isInteractingAnim);
+    }
+
+    public void CanInteract()
+    {
+        _isInteractingAnim = true;
+        _canInteract = true;
     }
 }
