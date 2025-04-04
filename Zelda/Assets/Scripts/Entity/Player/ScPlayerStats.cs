@@ -12,8 +12,11 @@ public class ScPlayerStats : ScStats
     private bool _isTakingDamage = false;
     ScInGameUI _uiManager;
     ScStartTransition _cameraScript;
+
+    int _baseHpMax;
     override public void Start()
     {
+        _baseHpMax = _hpMax;
         gamepad = Gamepad.current;
 
         _animator = GetComponent<Animator>();
@@ -25,19 +28,20 @@ public class ScPlayerStats : ScStats
         _playerUseItem = GetComponent<ScPlayerUseItem>();
         _playerMovement = GetComponent<ScPlayerMovement>();
 
-        if (!PlayerPrefs.HasKey("Player_hpMax"))
+        if (PlayerPrefs.HasKey("HeartQt"))
         {
-            PlayerPrefs.SetInt("Player_hpMax",_hpMax);
-            PlayerPrefs.Save();
-            Debug.Log("Didn't have Player_hpMax");
+            _hpMax = _baseHpMax + PlayerPrefs.GetInt("HeartQt");
         }
 
-        _hpMax = PlayerPrefs.GetInt("Player_hpMax");
         _hp = _hpMax;
 
-        //Debug.Log($"_hp : {_hp}");
-        _uiManager.UpdateHp(_hp);
+        UpdateHpUi();
 
+    }
+
+    public void UpdateHpUi()
+    {
+        _uiManager.UpdateHp(_hp);
     }
     override public void TakeDamage(int damage)
     {
@@ -49,7 +53,16 @@ public class ScPlayerStats : ScStats
         if (gamepad != null && _hp != 0)
         gamepad.SetMotorSpeeds(1,1);
 
-        _uiManager.UpdateHp(_hp);
+        UpdateHpUi();
+    }
+
+    override public void Heal(int heal)
+    {
+        _hpMax = _baseHpMax + PlayerPrefs.GetInt("HeartQt");
+        _hp += heal;
+        if (_hp > _hpMax) _hp = _hpMax;
+
+        UpdateHpUi();
     }
 
     public void PushedBack(Transform damagePos, float power)

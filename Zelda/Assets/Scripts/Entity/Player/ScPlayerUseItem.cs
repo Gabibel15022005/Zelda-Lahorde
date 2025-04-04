@@ -7,6 +7,7 @@ public class ScPlayerUseItem : MonoBehaviour
     ScInventoryUIManager _inventoryManager;
     ScPlayerMovement _player;
     Animator _animator;
+    ScPlayerStats _stats;
     private bool _isUsingItem = false;
     private bool _isAttacking = false;
     private int _combo = 0;
@@ -27,6 +28,7 @@ public class ScPlayerUseItem : MonoBehaviour
     void Start()
     {
         _player = GetComponent<ScPlayerMovement>();
+        _stats = GetComponent<ScPlayerStats>();
         _animator = GetComponent<Animator>();
         _inventoryManager = Camera.main.GetComponent<ScInGameUI>().GetInventoryManager();
     }
@@ -102,6 +104,11 @@ public class ScPlayerUseItem : MonoBehaviour
                 UseMagicStaff();
             break;
 
+            case "Red Potion":
+                Debug.Log(name);
+                UseRedPotion();
+            break;
+
             case "Pink Key":
                 Debug.Log(name);
                 UsePinkKey();
@@ -122,6 +129,11 @@ public class ScPlayerUseItem : MonoBehaviour
 
     }
 
+    private void UseRedPotion()
+    {
+        _stats.Heal(1);
+        SetIsUsingItem();
+    }
     private void UseBomb()
     {
         Vector3 direction = _throwDirection.position - transform.position;
@@ -133,7 +145,6 @@ public class ScPlayerUseItem : MonoBehaviour
 
         SetIsUsingItem();
     }
-
     private void UsePinkKey()
     {
         // check around 

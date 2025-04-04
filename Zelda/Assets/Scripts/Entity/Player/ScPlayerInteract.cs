@@ -17,10 +17,12 @@ public class ScPlayerInteract : MonoBehaviour
     private ScPlayerMovement movement;
     [SerializeField] private Transform _posObjInteract;
     ScInventoryUIManager _inventoryManager;
+    ScPlayerStats _stats;
     
     private bool _isInteractingAnim = false;
     void Start()
     {
+        _stats = GetComponent<ScPlayerStats>();
         _animator = GetComponent<Animator>();
         _inventoryManager = Camera.main.GetComponent<ScInGameUI>().GetInventoryManager();
         movement = GetComponent<ScPlayerMovement>();
@@ -113,11 +115,18 @@ public class ScPlayerInteract : MonoBehaviour
     }
     public void DestroyObjectAfterAnimation()
     {
-        Destroy(_posObjInteract.GetComponentInChildren<ScItemToTake>().gameObject);
+        foreach (ScItemToTake item in _posObjInteract.GetComponentsInChildren<ScItemToTake>())
+        {
+            if (item.GetObject().name == "Heart") _stats.Heal(_stats.GetHpMax());
+            Destroy(item.gameObject);
+        }
         _canInteract = true;
+
     }
+
     public void OnInteract(InputAction.CallbackContext context)
     {
+
         if (context.started && !_isCalledOnce)
         {
             _isInteracting = true;
@@ -146,7 +155,7 @@ public class ScPlayerInteract : MonoBehaviour
 
     public void CanInteract()
     {
-        _isInteractingAnim = true;
+        _isInteractingAnim = false;
         _canInteract = true;
     }
 }

@@ -14,7 +14,7 @@ public class ScStats : MonoBehaviour
         _hp -= damage;
         if (_hp < 0) _hp = 0;
     }
-    public void Heal(int heal)
+    virtual public void Heal(int heal)
     {
         _hp += heal;
         if (_hp > _hpMax) _hp = _hpMax;
@@ -24,8 +24,8 @@ public class ScStats : MonoBehaviour
         _hp = _hpMax;
     }
     public float GetSpeed() {return _speed;}
-    public float GetHp() {return _hp;}
-    public float GetHpMax() {return _hpMax;}
+    public int GetHp() {return _hp;}
+    public int GetHpMax() {return _hpMax;}
 
 
 }

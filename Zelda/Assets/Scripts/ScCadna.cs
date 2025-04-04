@@ -7,8 +7,11 @@ public class ScCadna : MonoBehaviour
     [SerializeField] List<ScDoor> _doors;
     Animator _animator;
     BoxCollider2D _collider;
+    ScShowInteraction _interaction;
     void Start()
     {
+        _interaction = GetComponent<ScShowInteraction>();
+
         if (PlayerPrefs.HasKey($"{gameObject.transform.parent.name}InScene({SceneManager.GetActiveScene().name})"))
         {
             OpenAllDoor();
@@ -18,8 +21,14 @@ public class ScCadna : MonoBehaviour
         _collider = GetComponent<BoxCollider2D>();
     }
 
+    private void HideUI()
+    {
+        _interaction.StopChecking();
+    }
+
     public void Unlock()
     {
+        HideUI();
         HasBeenUnlocked();
         _collider.enabled = false;
         _animator.Play("Unlock");

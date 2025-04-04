@@ -34,22 +34,23 @@ public class ScEnemySpawnerManager : MonoBehaviour
 
     public void RemoveFromEnemyCount()
     {
+
+        ScEnemyStats[] stats = GetComponentsInChildren<ScEnemyStats>();
+
         _nb--;
         Debug.Log($"nb = {_nb}");
 
-        if (_nb <= 0) 
+        if (stats.Length == 0) 
         {
             _index++;
-            Debug.Log($"nb = {_nb}");
         }
 
-        if (_nb <= 0 &&  _index < _spawners.Count)
+        if (stats.Length == 0 &&  _index < _spawners.Count)
         {
             StartCoroutine(Spawn());
         }
         else if (_nb <= 0) 
         {
-            _nb = 0;
             Debug.Log("End Of The Fight !");
             _zone.EndOfTheFight();
         }
@@ -58,7 +59,6 @@ public class ScEnemySpawnerManager : MonoBehaviour
     IEnumerator Spawn()
     {
         yield return new WaitForSeconds(1);
-        _nb = 0;
         SpawnEnemies();
     }
 }

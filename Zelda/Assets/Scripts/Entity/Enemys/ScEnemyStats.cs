@@ -25,7 +25,7 @@ public class ScEnemyStats : ScStats
         _takeDamage = true;
 
         _hp -= damage;
-        if (_hp < 0) IsDead();
+        if (_hp <= 0) IsDead();
 
         _animator.SetInteger("Hp",_hp);
         _animator.SetBool("TakeDamage",_takeDamage);
@@ -47,7 +47,13 @@ public class ScEnemyStats : ScStats
         {
             if (transform.parent.TryGetComponent(out ScEnemySpawnerManager spawnerManager))
             {
+                transform.parent = null;
                 spawnerManager.RemoveFromEnemyCount();
+            }
+            if (transform.parent.TryGetComponent(out ScKillAllEnemy QuestManager))
+            {
+                transform.parent = null;
+                QuestManager.RemoveFromEnemyCount();
             }
         }
     }

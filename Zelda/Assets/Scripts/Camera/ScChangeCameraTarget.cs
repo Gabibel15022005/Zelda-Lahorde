@@ -23,7 +23,6 @@ public class ScChangeCameraTarget : MonoBehaviour
             _checkNbTrigger++;
         }
     }
-
     void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("NewCameraPosition")) // ce sera juste un empty avec ce tag et une zone de trigger

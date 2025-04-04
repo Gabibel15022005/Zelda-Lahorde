@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class ScShowInteraction : MonoBehaviour
@@ -5,12 +6,28 @@ public class ScShowInteraction : MonoBehaviour
     [SerializeField] Animator _animator;
     [SerializeField] float _size = 1f;
     [SerializeField] LayerMask _playerLayerMask;
+    private bool _check = true;
 
     void Update() 
     {
-        CheckIfPlayerInRange();
+        if (_check)
+        {
+            CheckIfPlayerInRange();
+        }
     }
 
+    public void StopChecking()
+    {
+        _check = false;
+        StartCoroutine(StopShowingUI());
+        _animator.SetBool("ShowButton", false);
+    }
+
+    IEnumerator StopShowingUI()
+    {
+        yield return new WaitForSeconds(0.2f);
+
+    }
     void CheckIfPlayerInRange()
     {
         if (_animator == null) return;
